@@ -1,0 +1,32 @@
+{
+  "name": "rage-area-aluno-ad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anúncio vertical 9:16 (30 s) da Área do Aluno — Academia RAGE (Remotion)",
+  "scripts": {
+    "prepare-assets": "node scripts/prepare.mjs",
+    "predev": "node scripts/prepare.mjs",
+    "dev": "remotion studio src/index.ts",
+    "prerender": "node scripts/prepare.mjs",
+    "render": "remotion render src/index.ts RageAreaAluno out/rage_area_aluno.mp4 --codec=h264 --pixel-format=yuv420p --video-bitrate=8M --audio-codec=aac --concurrency=2",
+    "check": "node scripts/check.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@remotion/cli": "^4.0.543",
+    "@remotion/media-utils": "^4.0.543",
+    "@remotion/transitions": "^4.0.543",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.543"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
