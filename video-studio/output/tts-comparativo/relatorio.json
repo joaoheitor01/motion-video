@@ -1,0 +1,2843 @@
+{
+  "gerado_em": "2026-11-13 11:56",
+  "frases": [
+    {
+      "id": "01-preco-telefone",
+      "categoria": "Moeda, telefone e horário",
+      "perfil": "comercial",
+      "original": "Só hoje: o plano anual sai por R$ 1.299,90 — ligue (11) 99876-5432 até as 20h30!",
+      "adaptado": "Só hoje: o plano anual sai por mil duzentos e noventa e nove reais e noventa centavos — ligue onze, nove nove oito sete meia, cinco quatro três dois até as oito e meia da noite!",
+      "mudancas": [
+        {
+          "regra": "telefone",
+          "de": "(11) 99876-5432",
+          "para": "onze, nove nove oito sete meia, cinco quatro três dois"
+        },
+        {
+          "regra": "hora",
+          "de": "até as 20h30",
+          "para": "até as oito e meia da noite"
+        },
+        {
+          "regra": "moeda",
+          "de": "R$ 1.299,90",
+          "para": "mil duzentos e noventa e nove reais e noventa centavos"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "Só hoje: o plano anual sai por mil duzentos e noventa e nove reais e noventa centavos — ligue onze, nove nove oito sete meia, cinco quatro três dois até as oito e meia da noite!",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "sˈɔ ˈoʒy: ʊ plˈɐ̃nw ˌænuˈaʊ sˈaɪ por xeˈaʊ dˈolar mˈiʊ dˌuzˈeɪŋtʊzˌi novˈeɪŋtæinˈɔvy vˈirɡulˌæ novˈeɪŋtæ — lˈiɡy (ˈoŋzy) nˌovˈeɪŋtæinˈɔvy mˈiʊ ˈoɪtʊsˈeɪŋtʊzˌi setˈeɪŋtæisˈeɪz mˈenʊs sˈiŋkʊ mˈiʊ kwˈatrʊsˈeɪŋtʊzi trˈiŋtæidˈoɪz atˌɛ as vˈiŋtʃy aɡˈa trˈiŋtæ!",
+      "fonemas_adaptado": "sˈɔ ˈoʒy: ʊ plˈɐ̃nw ˌænuˈaʊ sˈaɪ por mˈiʊ dˌuzˈeɪŋtʊz i nˌovˈeɪŋtæ i nˈɔvy xeˈaɪz i nˌovˈeɪŋtæ sˌeɪŋtˈavʊs — lˈiɡj ˈoŋzy, nˈɔvy nˈɔvj ˈoɪtʊ sˈɛtʃy mˈeɪæ, sˈiŋkʊ kwˈatrʊ trˈez dˈoɪz atˌɛ az ˈoɪtw i mˈeɪæ da nˈoɪtʃy!",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'R$' lido como 'real dólar'",
+            "trecho": "dˈolar",
+            "ok": false
+          },
+          {
+            "descricao": "decimal lido como 'vírgula'",
+            "trecho": "vˈirɡul",
+            "ok": false
+          },
+          {
+            "descricao": "hífen do telefone lido como 'menos'",
+            "trecho": "mˈenʊs",
+            "ok": false
+          },
+          {
+            "descricao": "'20h30' lido como 'vinte agá trinta'",
+            "trecho": "aɡˈa",
+            "ok": false
+          },
+          {
+            "descricao": "'reais'",
+            "trecho": "xeˈaɪz",
+            "ok": false
+          },
+          {
+            "descricao": "telefone dígito a dígito ('meia')",
+            "trecho": "mˈeɪæ",
+            "ok": false
+          },
+          {
+            "descricao": "'oito e meia da noite'",
+            "trecho": "nˈoɪtʃ",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'R$' lido como 'real dólar'",
+            "trecho": "dˈolar",
+            "ok": true
+          },
+          {
+            "descricao": "decimal lido como 'vírgula'",
+            "trecho": "vˈirɡul",
+            "ok": true
+          },
+          {
+            "descricao": "hífen do telefone lido como 'menos'",
+            "trecho": "mˈenʊs",
+            "ok": true
+          },
+          {
+            "descricao": "'20h30' lido como 'vinte agá trinta'",
+            "trecho": "aɡˈa",
+            "ok": true
+          },
+          {
+            "descricao": "'reais'",
+            "trecho": "xeˈaɪz",
+            "ok": true
+          },
+          {
+            "descricao": "telefone dígito a dígito ('meia')",
+            "trecho": "mˈeɪæ",
+            "ok": true
+          },
+          {
+            "descricao": "'oito e meia da noite'",
+            "trecho": "nˈoɪtʃ",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "01-preco-telefone_kokoro_A-original.wav",
+            "duracao_s": 11.82,
+            "fala_s": 11.0,
+            "silabas": 71,
+            "silabas_por_s": 6.45,
+            "pausas": 2,
+            "pausa_total_s": 0.7,
+            "pausa_media_s": 0.35,
+            "pausa_maior_s": 0.42,
+            "pausa_pct": 6.0,
+            "f0_mediana_hz": 170.2,
+            "f0_variacao_st": 3.13,
+            "f0_faixa_st": 9.35,
+            "pico_dbfs": -2.2,
+            "lista_pausas": [
+              [
+                5.27,
+                0.42
+              ],
+              [
+                10.14,
+                0.28
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "01-preco-telefone_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 9.28,
+            "fala_s": 8.53,
+            "silabas": 56,
+            "silabas_por_s": 6.57,
+            "pausas": 2,
+            "pausa_total_s": 0.69,
+            "pausa_media_s": 0.34,
+            "pausa_maior_s": 0.4,
+            "pausa_pct": 7.5,
+            "f0_mediana_hz": 167.8,
+            "f0_variacao_st": 3.05,
+            "f0_faixa_st": 9.05,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                4.69,
+                0.4
+              ],
+              [
+                6.44,
+                0.29
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "01-preco-telefone_piper_A-original.wav",
+            "duracao_s": 10.25,
+            "fala_s": 9.42,
+            "silabas": 71,
+            "silabas_por_s": 7.54,
+            "pausas": 2,
+            "pausa_total_s": 0.35,
+            "pausa_media_s": 0.17,
+            "pausa_maior_s": 0.2,
+            "pausa_pct": 3.6,
+            "f0_mediana_hz": 163.3,
+            "f0_variacao_st": 2.92,
+            "f0_faixa_st": 9.56,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                0.73,
+                0.15
+              ],
+              [
+                4.32,
+                0.2
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "01-preco-telefone_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 10.18,
+            "fala_s": 9.5,
+            "silabas": 56,
+            "silabas_por_s": 5.89,
+            "pausas": 4,
+            "pausa_total_s": 0.64,
+            "pausa_media_s": 0.16,
+            "pausa_maior_s": 0.21,
+            "pausa_pct": 6.3,
+            "f0_mediana_hz": 176.4,
+            "f0_variacao_st": 3.07,
+            "f0_faixa_st": 9.88,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                0.58,
+                0.17
+              ],
+              [
+                5.09,
+                0.21
+              ],
+              [
+                5.89,
+                0.14
+              ],
+              [
+                7.46,
+                0.12
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "02-data-porcentagem",
+      "categoria": "Datas, porcentagens e siglas",
+      "perfil": "jornalistico",
+      "original": "O PIB cresceu 3,5% em 2025, segundo o IBGE, e a inflação fechou em 4,2% no dia 13/11/2026.",
+      "adaptado": "O PIB cresceu três vírgula cinco por cento em dois mil e vinte e cinco, segundo o IBGE, e a inflação fechou em quatro vírgula dois por cento no dia treze de novembro de dois mil e vinte e seis.",
+      "mudancas": [
+        {
+          "regra": "data",
+          "de": "13/11/2026",
+          "para": "treze de novembro de dois mil e vinte e seis"
+        },
+        {
+          "regra": "porcentagem",
+          "de": "3,5%",
+          "para": "três vírgula cinco por cento"
+        },
+        {
+          "regra": "porcentagem",
+          "de": "4,2%",
+          "para": "quatro vírgula dois por cento"
+        },
+        {
+          "regra": "numero",
+          "de": "2025",
+          "para": "dois mil e vinte e cinco"
+        },
+        {
+          "regra": "sigla",
+          "de": "PIB",
+          "para": "PIB (lida como palavra)"
+        },
+        {
+          "regra": "sigla",
+          "de": "IBGE",
+          "para": "IBGE (soletrada: i bê gê é)"
+        }
+      ],
+      "avisos": [
+        "Sigla 'IBGE' soletrada ('i bê gê é'). Para outra leitura, adicione-a ao dicionário."
+      ],
+      "blocos": [
+        {
+          "falado": "O PIB cresceu três vírgula cinco por cento em dois mil e vinte e cinco, segundo o IBGE, e a inflação fechou em quatro vírgula dois por cento no dia treze de novembro de dois mil e vinte e seis.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "ʊ pˌeˌibˈe kresˈeʊ trˈes vˈirɡulæ sˈiŋkʊ pˌorsˈeɪŋtw ˈeɪŋ dˈoɪz mˈiʊ i vˈiŋtʃyisˈiŋkʊ, sˌeɡˈũŋdw u ˈibʒy, i a ˌiŋflasˈɐ̃ʊ̃ feʃˈow ˈeɪŋ kwˈatrʊ vˈirɡulæ dˈoɪs pˌorsˈeɪŋtʊ nʊ dʒˈiæ trˈezy ˈoŋzy dˈoɪz mˈiʊ i vˈiŋtʃyisˈeɪs.",
+      "fonemas_adaptado": "ʊ pˈib kresˈeʊ trˈez vˈiɾəɡulæ sˈiŋkʊ por sˈeɪŋtw ˈeɪŋ dˈoɪz mˈiʊ i vˈiŋtʃj i sˈiŋkʊ, sˌeɡˈũŋdw u ˌibˌeʒˌeˈɛ, i a ˌiŋflasˈɐ̃ʊ̃ feʃˈow ˈeɪŋ kwˈatrʊ vˈiɾəɡulæ dˈoɪs por sˈeɪŋtʊ nʊ dʒˈiæ trˈezy dʒy nˌovˈeɪmbrʊ dʒy dˈoɪz mˈiʊ i vˈiŋtʃj i sˈeɪs.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'PIB' soletrado ('pê i bê')",
+            "trecho": "pˌeˌibˈe",
+            "ok": false
+          },
+          {
+            "descricao": "'IBGE' lido como 'íbje'",
+            "trecho": "ˈibʒy",
+            "ok": false
+          },
+          {
+            "descricao": "data lida como 'treze onze'",
+            "trecho": "trˈezy ˈoŋzy",
+            "ok": false
+          },
+          {
+            "descricao": "'PIB' como palavra",
+            "trecho": "pˈib",
+            "ok": false
+          },
+          {
+            "descricao": "'IBGE' soletrado ('i bê gê é')",
+            "trecho": "ˌibˌeʒˌeˈɛ",
+            "ok": false
+          },
+          {
+            "descricao": "'treze de novembro'",
+            "trecho": "nˌovˈeɪmbrʊ",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'PIB' soletrado ('pê i bê')",
+            "trecho": "pˌeˌibˈe",
+            "ok": true
+          },
+          {
+            "descricao": "'IBGE' lido como 'íbje'",
+            "trecho": "ˈibʒy",
+            "ok": true
+          },
+          {
+            "descricao": "data lida como 'treze onze'",
+            "trecho": "trˈezy ˈoŋzy",
+            "ok": true
+          },
+          {
+            "descricao": "'PIB' como palavra",
+            "trecho": "pˈib",
+            "ok": true
+          },
+          {
+            "descricao": "'IBGE' soletrado ('i bê gê é')",
+            "trecho": "ˌibˌeʒˌeˈɛ",
+            "ok": true
+          },
+          {
+            "descricao": "'treze de novembro'",
+            "trecho": "nˌovˈeɪmbrʊ",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "02-data-porcentagem_kokoro_A-original.wav",
+            "duracao_s": 10.18,
+            "fala_s": 9.34,
+            "silabas": 56,
+            "silabas_por_s": 6.0,
+            "pausas": 2,
+            "pausa_total_s": 0.74,
+            "pausa_media_s": 0.37,
+            "pausa_maior_s": 0.39,
+            "pausa_pct": 7.3,
+            "f0_mediana_hz": 171.4,
+            "f0_variacao_st": 2.8,
+            "f0_faixa_st": 8.99,
+            "pico_dbfs": -2.0,
+            "lista_pausas": [
+              [
+                3.66,
+                0.39
+              ],
+              [
+                4.88,
+                0.35
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "02-data-porcentagem_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 10.6,
+            "fala_s": 9.77,
+            "silabas": 61,
+            "silabas_por_s": 6.24,
+            "pausas": 2,
+            "pausa_total_s": 0.76,
+            "pausa_media_s": 0.38,
+            "pausa_maior_s": 0.41,
+            "pausa_pct": 7.2,
+            "f0_mediana_hz": 170.2,
+            "f0_variacao_st": 2.69,
+            "f0_faixa_st": 8.64,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.58,
+                0.35
+              ],
+              [
+                4.91,
+                0.41
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "02-data-porcentagem_piper_A-original.wav",
+            "duracao_s": 8.82,
+            "fala_s": 8.15,
+            "silabas": 56,
+            "silabas_por_s": 6.87,
+            "pausas": 1,
+            "pausa_total_s": 0.15,
+            "pausa_media_s": 0.15,
+            "pausa_maior_s": 0.15,
+            "pausa_pct": 1.8,
+            "f0_mediana_hz": 164.6,
+            "f0_variacao_st": 2.29,
+            "f0_faixa_st": 7.28,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                4.2,
+                0.15
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "02-data-porcentagem_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 8.77,
+            "fala_s": 8.56,
+            "silabas": 61,
+            "silabas_por_s": 7.13,
+            "pausas": 1,
+            "pausa_total_s": 0.18,
+            "pausa_media_s": 0.18,
+            "pausa_maior_s": 0.18,
+            "pausa_pct": 2.1,
+            "f0_mediana_hz": 159.8,
+            "f0_variacao_st": 2.54,
+            "f0_faixa_st": 8.66,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.99,
+                0.18
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "03-siglas",
+      "categoria": "Siglas brasileiras e valores",
+      "perfil": "jornalistico",
+      "original": "O INSS, a ONU e o MEC anunciaram um acordo com o BNDES de R$ 2,5 bilhões.",
+      "adaptado": "O INSS, a ONU e o MEC anunciaram um acordo com o bê ene dê ésse de dois bilhões e meio de reais.",
+      "mudancas": [
+        {
+          "regra": "dicionario",
+          "de": "BNDES",
+          "para": "bê ene dê ésse"
+        },
+        {
+          "regra": "moeda",
+          "de": "R$ 2,5 bilhões",
+          "para": "dois bilhões e meio de reais"
+        },
+        {
+          "regra": "sigla",
+          "de": "INSS",
+          "para": "INSS (soletrada: i ene ésse ésse)"
+        },
+        {
+          "regra": "sigla",
+          "de": "ONU",
+          "para": "ONU (lida como palavra)"
+        },
+        {
+          "regra": "sigla",
+          "de": "MEC",
+          "para": "MEC (lida como palavra)"
+        }
+      ],
+      "avisos": [
+        "Sigla 'INSS' soletrada ('i ene ésse ésse'). Para outra leitura, adicione-a ao dicionário."
+      ],
+      "blocos": [
+        {
+          "falado": "O INSS, a ONU e o MEC anunciaram um acordo com o bê ene dê ésse de dois bilhões e meio de reais.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "u ˈiŋs, a ˌɔˌeneˈu i ʊ ˌemeˌɛsˈe ˌænũŋsiˈaɾɐ̃ʊ̃ ũŋ ˌakˈoɾədʊ koŋ ʊ bndʒˈyz dʒy xeˈaʊ dˈolar dˈoɪs vˈirɡulæ sˈiŋkʊ biljˈõjs.",
+      "fonemas_adaptado": "u ˌiˌeneˌɛsyˈɛsy, a ˈonu i ʊ mˈek ˌænũŋsiˈaɾɐ̃ʊ̃ ũŋ ˌakˈoɾədʊ koŋ ʊ bˈe ˈeny dˈe ˈɛsy dʒy dˈoɪz biljˈõjz i mˈeɪʊ dʒy xeˈaɪs.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'INSS' lido como 'ins'",
+            "trecho": "ˈiŋs,",
+            "ok": false
+          },
+          {
+            "descricao": "'ONU' soletrado ('ó ene u')",
+            "trecho": "ˌɔˌeneˈu",
+            "ok": false
+          },
+          {
+            "descricao": "'MEC' soletrado ('eme é cê')",
+            "trecho": "ˌemeˌɛsˈe",
+            "ok": false
+          },
+          {
+            "descricao": "'BNDES' lido como 'bndês'",
+            "trecho": "bndʒˈyz",
+            "ok": false
+          },
+          {
+            "descricao": "'R$' lido como 'real dólar'",
+            "trecho": "dˈolar",
+            "ok": false
+          },
+          {
+            "descricao": "'INSS' soletrado ('i ene ésse ésse')",
+            "trecho": "ˌiˌeneˌɛsyˈɛsy",
+            "ok": false
+          },
+          {
+            "descricao": "'ONU' como palavra",
+            "trecho": "ˈonu",
+            "ok": false
+          },
+          {
+            "descricao": "'dois bilhões e meio de reais'",
+            "trecho": "mˈeɪʊ dʒy xeˈaɪs",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'INSS' lido como 'ins'",
+            "trecho": "ˈiŋs,",
+            "ok": true
+          },
+          {
+            "descricao": "'ONU' soletrado ('ó ene u')",
+            "trecho": "ˌɔˌeneˈu",
+            "ok": true
+          },
+          {
+            "descricao": "'MEC' soletrado ('eme é cê')",
+            "trecho": "ˌemeˌɛsˈe",
+            "ok": true
+          },
+          {
+            "descricao": "'BNDES' lido como 'bndês'",
+            "trecho": "bndʒˈyz",
+            "ok": true
+          },
+          {
+            "descricao": "'R$' lido como 'real dólar'",
+            "trecho": "dˈolar",
+            "ok": true
+          },
+          {
+            "descricao": "'INSS' soletrado ('i ene ésse ésse')",
+            "trecho": "ˌiˌeneˌɛsyˈɛsy",
+            "ok": true
+          },
+          {
+            "descricao": "'ONU' como palavra",
+            "trecho": "ˈonu",
+            "ok": true
+          },
+          {
+            "descricao": "'dois bilhões e meio de reais'",
+            "trecho": "mˈeɪʊ dʒy xeˈaɪs",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "03-siglas_kokoro_A-original.wav",
+            "duracao_s": 6.06,
+            "fala_s": 5.62,
+            "silabas": 39,
+            "silabas_por_s": 6.94,
+            "pausas": 1,
+            "pausa_total_s": 0.34,
+            "pausa_media_s": 0.34,
+            "pausa_maior_s": 0.34,
+            "pausa_pct": 5.7,
+            "f0_mediana_hz": 167.8,
+            "f0_variacao_st": 2.87,
+            "f0_faixa_st": 8.21,
+            "pico_dbfs": -2.5,
+            "lista_pausas": [
+              [
+                1.68,
+                0.34
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "03-siglas_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 5.68,
+            "fala_s": 5.35,
+            "silabas": 41,
+            "silabas_por_s": 7.66,
+            "pausas": 1,
+            "pausa_total_s": 0.29,
+            "pausa_media_s": 0.29,
+            "pausa_maior_s": 0.29,
+            "pausa_pct": 5.1,
+            "f0_mediana_hz": 173.3,
+            "f0_variacao_st": 2.63,
+            "f0_faixa_st": 7.71,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                1.54,
+                0.29
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "03-siglas_piper_A-original.wav",
+            "duracao_s": 6.0,
+            "fala_s": 5.48,
+            "silabas": 39,
+            "silabas_por_s": 7.12,
+            "pausas": 0,
+            "pausa_total_s": 0,
+            "pausa_media_s": 0.0,
+            "pausa_maior_s": 0.0,
+            "pausa_pct": 0.0,
+            "f0_mediana_hz": 175.0,
+            "f0_variacao_st": 2.38,
+            "f0_faixa_st": 7.42,
+            "pico_dbfs": -0.0,
+            "lista_pausas": []
+          },
+          "B": {
+            "arquivo": "03-siglas_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 6.17,
+            "fala_s": 6.13,
+            "silabas": 41,
+            "silabas_por_s": 6.69,
+            "pausas": 0,
+            "pausa_total_s": 0,
+            "pausa_media_s": 0.0,
+            "pausa_maior_s": 0.0,
+            "pausa_pct": 0.0,
+            "f0_mediana_hz": 170.9,
+            "f0_variacao_st": 2.19,
+            "f0_faixa_st": 6.7,
+            "pico_dbfs": -3.0,
+            "lista_pausas": []
+          }
+        }
+      }
+    },
+    {
+      "id": "04-termos-tecnicos",
+      "categoria": "Marcas e termos técnicos estrangeiros",
+      "perfil": "institucional",
+      "original": "As animações combinam dois motores: Remotion, com React, e HyperFrames, com HTML e GSAP.",
+      "adaptado": "As animações combinam dois motores: rimôuchon, com riékti, e ráiper frêimz, com HTML e gê sáp.",
+      "mudancas": [
+        {
+          "regra": "dicionario",
+          "de": "Remotion",
+          "para": "rimôuchon"
+        },
+        {
+          "regra": "dicionario",
+          "de": "React",
+          "para": "riékti"
+        },
+        {
+          "regra": "dicionario",
+          "de": "HyperFrames",
+          "para": "ráiper frêimz"
+        },
+        {
+          "regra": "dicionario",
+          "de": "GSAP",
+          "para": "gê sáp"
+        },
+        {
+          "regra": "sigla",
+          "de": "HTML",
+          "para": "HTML (soletrada: agá tê eme éle)"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "As animações combinam dois motores: rimôuchon, com riékti, e ráiper frêimz, com HTML e gê sáp.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "az ˌænimasˈõjs kˌombˈinɐ̃ʊ̃ dˈoɪz mˌotˈoɾys: xˌemotʃiˈoŋ, koŋ xeˈaktʃ, i ipˈer frˈeɪmis, koŋ aɡˌatˌeˌemeˈɛly i ɡsˈap.",
+      "fonemas_adaptado": "az ˌænimasˈõjs kˌombˈinɐ̃ʊ̃ dˈoɪz mˌotˈoɾys: xˌimˈouʃoŋ, koŋ xjˈɛktʃi, i xˈaɪper frˈeims, koŋ aɡˌatˌeˌemeˈɛly i ʒˈe sˈap.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'Remotion' lido como 'remotchiôn'",
+            "trecho": "xˌemotʃiˈoŋ",
+            "ok": false
+          },
+          {
+            "descricao": "'React' lido como 'reáct'",
+            "trecho": "xeˈaktʃ",
+            "ok": false
+          },
+          {
+            "descricao": "'HyperFrames' lido como 'ipér'",
+            "trecho": "ipˈer",
+            "ok": false
+          },
+          {
+            "descricao": "'GSAP' lido como 'gsap'",
+            "trecho": "ɡsˈap",
+            "ok": false
+          },
+          {
+            "descricao": "'rimôuchon'",
+            "trecho": "xˌimˈouʃoŋ",
+            "ok": false
+          },
+          {
+            "descricao": "'riékti'",
+            "trecho": "xjˈɛktʃi",
+            "ok": false
+          },
+          {
+            "descricao": "'ráiper'",
+            "trecho": "xˈaɪper",
+            "ok": false
+          },
+          {
+            "descricao": "'gê sáp'",
+            "trecho": "ʒˈe sˈap",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'Remotion' lido como 'remotchiôn'",
+            "trecho": "xˌemotʃiˈoŋ",
+            "ok": true
+          },
+          {
+            "descricao": "'React' lido como 'reáct'",
+            "trecho": "xeˈaktʃ",
+            "ok": true
+          },
+          {
+            "descricao": "'HyperFrames' lido como 'ipér'",
+            "trecho": "ipˈer",
+            "ok": true
+          },
+          {
+            "descricao": "'GSAP' lido como 'gsap'",
+            "trecho": "ɡsˈap",
+            "ok": true
+          },
+          {
+            "descricao": "'rimôuchon'",
+            "trecho": "xˌimˈouʃoŋ",
+            "ok": true
+          },
+          {
+            "descricao": "'riékti'",
+            "trecho": "xjˈɛktʃi",
+            "ok": true
+          },
+          {
+            "descricao": "'ráiper'",
+            "trecho": "xˈaɪper",
+            "ok": true
+          },
+          {
+            "descricao": "'gê sáp'",
+            "trecho": "ʒˈe sˈap",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "04-termos-tecnicos_kokoro_A-original.wav",
+            "duracao_s": 5.93,
+            "fala_s": 5.33,
+            "silabas": 34,
+            "silabas_por_s": 6.38,
+            "pausas": 2,
+            "pausa_total_s": 0.37,
+            "pausa_media_s": 0.18,
+            "pausa_maior_s": 0.25,
+            "pausa_pct": 6.5,
+            "f0_mediana_hz": 173.9,
+            "f0_variacao_st": 2.91,
+            "f0_faixa_st": 8.08,
+            "pico_dbfs": -2.8,
+            "lista_pausas": [
+              [
+                1.94,
+                0.25
+              ],
+              [
+                3.24,
+                0.12
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "04-termos-tecnicos_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 6.2,
+            "fala_s": 5.68,
+            "silabas": 33,
+            "silabas_por_s": 5.81,
+            "pausas": 1,
+            "pausa_total_s": 0.33,
+            "pausa_media_s": 0.33,
+            "pausa_maior_s": 0.33,
+            "pausa_pct": 5.5,
+            "f0_mediana_hz": 173.9,
+            "f0_variacao_st": 2.7,
+            "f0_faixa_st": 8.14,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                1.98,
+                0.33
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "04-termos-tecnicos_piper_A-original.wav",
+            "duracao_s": 6.19,
+            "fala_s": 5.41,
+            "silabas": 34,
+            "silabas_por_s": 6.28,
+            "pausas": 1,
+            "pausa_total_s": 0.19,
+            "pausa_media_s": 0.19,
+            "pausa_maior_s": 0.19,
+            "pausa_pct": 3.4,
+            "f0_mediana_hz": 175.0,
+            "f0_variacao_st": 2.71,
+            "f0_faixa_st": 9.01,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                2.06,
+                0.19
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "04-termos-tecnicos_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 6.24,
+            "fala_s": 5.71,
+            "silabas": 33,
+            "silabas_por_s": 5.78,
+            "pausas": 3,
+            "pausa_total_s": 0.48,
+            "pausa_media_s": 0.16,
+            "pausa_maior_s": 0.2,
+            "pausa_pct": 7.8,
+            "f0_mediana_hz": 180.7,
+            "f0_variacao_st": 2.36,
+            "f0_faixa_st": 8.08,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                1.92,
+                0.2
+              ],
+              [
+                2.72,
+                0.14
+              ],
+              [
+                3.44,
+                0.14
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "05-unidades",
+      "categoria": "Medidas e unidades",
+      "perfil": "institucional",
+      "original": "O vídeo final tem 1920x1080 pixels, 30 fps e ocupa 250 MB; a 50 km/h, o trajeto de 12,5 km leva 15 min.",
+      "adaptado": "O vídeo final tem mil novecentos e vinte por mil e oitenta pícsels, trinta quadros por segundo e ocupa duzentos e cinquenta megabáites; a cinquenta quilômetros por hora, o trajeto de doze quilômetros e meio leva quinze minutos.",
+      "mudancas": [
+        {
+          "regra": "dicionario",
+          "de": "pixels",
+          "para": "pícsels"
+        },
+        {
+          "regra": "dimensao",
+          "de": "1920x1080",
+          "para": "mil novecentos e vinte por mil e oitenta"
+        },
+        {
+          "regra": "unidade",
+          "de": "30 fps",
+          "para": "trinta quadros por segundo"
+        },
+        {
+          "regra": "unidade",
+          "de": "250 MB",
+          "para": "duzentos e cinquenta megabáites"
+        },
+        {
+          "regra": "unidade",
+          "de": "50 km/h",
+          "para": "cinquenta quilômetros por hora"
+        },
+        {
+          "regra": "unidade",
+          "de": "12,5 km",
+          "para": "doze quilômetros e meio"
+        },
+        {
+          "regra": "unidade",
+          "de": "15 min",
+          "para": "quinze minutos"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "O vídeo final tem mil novecentos e vinte por mil e oitenta pícsels, trinta quadros por segundo e ocupa duzentos e cinquenta megabáites; a cinquenta quilômetros por hora, o trajeto de doze quilômetros e meio leva quinze minutos.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "ʊ vˈidʒjʊ finˈaʊ teɪŋ mˈiʊ nˈɔvysˈeɪŋtʊzi vˈiŋtʃy ʃˈiz mˈiʊ i oɪtˈeɪŋtæ piʃˈɛʊs, trˈiŋtæ ˌɛfypˌeˈɛsy i ˌokˈupæ dˌuzˈeɪŋtʊzˌi siŋkwˈeɪŋtæ ˌemebˈe; a sˌiŋkwˈeɪŋtæ kˌaˈeme aɡˈa, ʊ trˌaʒˈɛtʊ dʒy dˈozy vˈirɡulæ sˈiŋkʊ kˌaˈeme lˈɛvæ kˈiŋzy mˈin.",
+      "fonemas_adaptado": "ʊ vˈidʒjʊ finˈaʊ teɪŋ mˈiʊ nˌovesˈeɪŋtʊz i vˈiŋtʃy por mˈiʊ i ˌoɪtˈeɪŋtæ pˈiksɛʊs, trˈiŋtæ kwˈadrʊs por sˌeɡˈũŋdw i ˌokˈupæ dˌuzˈeɪŋtʊz i sˌiŋkwˈeɪŋtæ mˌeɡabˈaɪtʃys; a sˌiŋkwˈeɪŋtæ kˌilˈometrʊs poɾ ˈɔɾæ, ʊ trˌaʒˈɛtʊ dʒy dˈozy kˌilˈometrʊz i mˈeɪʊ lˈɛvæ kˈiŋzy mˌinˈutʊs.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'km/h' lido como 'cá eme agá'",
+            "trecho": "kˌaˈeme aɡˈa",
+            "ok": false
+          },
+          {
+            "descricao": "'MB' soletrado",
+            "trecho": "ˈemebˈe",
+            "ok": true
+          },
+          {
+            "descricao": "'pixels' lido como 'pichéus'",
+            "trecho": "piʃˈɛʊs",
+            "ok": false
+          },
+          {
+            "descricao": "'quilômetros por hora'",
+            "trecho": "kˌilˈometrʊs poɾ ˈɔɾæ",
+            "ok": false
+          },
+          {
+            "descricao": "'megabáites'",
+            "trecho": "mˌeɡabˈaɪtʃys",
+            "ok": false
+          },
+          {
+            "descricao": "'quinze minutos'",
+            "trecho": "mˌinˈutʊs",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'km/h' lido como 'cá eme agá'",
+            "trecho": "kˌaˈeme aɡˈa",
+            "ok": true
+          },
+          {
+            "descricao": "'MB' soletrado",
+            "trecho": "ˈemebˈe",
+            "ok": true
+          },
+          {
+            "descricao": "'pixels' lido como 'pichéus'",
+            "trecho": "piʃˈɛʊs",
+            "ok": true
+          },
+          {
+            "descricao": "'quilômetros por hora'",
+            "trecho": "kˌilˈometrʊs poɾ ˈɔɾæ",
+            "ok": true
+          },
+          {
+            "descricao": "'megabáites'",
+            "trecho": "mˌeɡabˈaɪtʃys",
+            "ok": true
+          },
+          {
+            "descricao": "'quinze minutos'",
+            "trecho": "mˌinˈutʊs",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "05-unidades_kokoro_A-original.wav",
+            "duracao_s": 11.67,
+            "fala_s": 10.49,
+            "silabas": 72,
+            "silabas_por_s": 6.86,
+            "pausas": 3,
+            "pausa_total_s": 1.02,
+            "pausa_media_s": 0.34,
+            "pausa_maior_s": 0.49,
+            "pausa_pct": 8.9,
+            "f0_mediana_hz": 170.8,
+            "f0_variacao_st": 2.79,
+            "f0_faixa_st": 9.05,
+            "pico_dbfs": -1.9,
+            "lista_pausas": [
+              [
+                3.75,
+                0.26
+              ],
+              [
+                6.68,
+                0.49
+              ],
+              [
+                8.41,
+                0.27
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "05-unidades_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 13.03,
+            "fala_s": 11.87,
+            "silabas": 75,
+            "silabas_por_s": 6.32,
+            "pausas": 3,
+            "pausa_total_s": 1.11,
+            "pausa_media_s": 0.37,
+            "pausa_maior_s": 0.45,
+            "pausa_pct": 8.6,
+            "f0_mediana_hz": 172.7,
+            "f0_variacao_st": 2.68,
+            "f0_faixa_st": 8.67,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.6,
+                0.37
+              ],
+              [
+                7.53,
+                0.45
+              ],
+              [
+                9.6,
+                0.29
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "05-unidades_piper_A-original.wav",
+            "duracao_s": 10.55,
+            "fala_s": 9.64,
+            "silabas": 72,
+            "silabas_por_s": 7.47,
+            "pausas": 2,
+            "pausa_total_s": 0.38,
+            "pausa_media_s": 0.19,
+            "pausa_maior_s": 0.23,
+            "pausa_pct": 3.8,
+            "f0_mediana_hz": 165.8,
+            "f0_variacao_st": 2.51,
+            "f0_faixa_st": 7.87,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                5.94,
+                0.15
+              ],
+              [
+                7.32,
+                0.23
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "05-unidades_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 11.98,
+            "fala_s": 11.47,
+            "silabas": 75,
+            "silabas_por_s": 6.54,
+            "pausas": 3,
+            "pausa_total_s": 0.49,
+            "pausa_media_s": 0.16,
+            "pausa_maior_s": 0.23,
+            "pausa_pct": 4.1,
+            "f0_mediana_hz": 163.3,
+            "f0_variacao_st": 2.6,
+            "f0_faixa_st": 8.9,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.25,
+                0.12
+              ],
+              [
+                7.0,
+                0.23
+              ],
+              [
+                8.77,
+                0.14
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "06-abreviacoes",
+      "categoria": "Abreviações e ordinais",
+      "perfil": "institucional",
+      "original": "O Dr. Paulo Mendes (diretor da Cia.) atende na Av. Brasil, nº 1.500, 3º andar.",
+      "adaptado": "O doutor Paulo Mendes, diretor da companhia, atende na avenida Brasil, número mil e quinhentos, terceiro andar.",
+      "mudancas": [
+        {
+          "regra": "abreviacao",
+          "de": "Dr.",
+          "para": "doutor"
+        },
+        {
+          "regra": "abreviacao",
+          "de": "Av.",
+          "para": "avenida"
+        },
+        {
+          "regra": "abreviacao",
+          "de": "nº ",
+          "para": "número "
+        },
+        {
+          "regra": "abreviacao",
+          "de": "Cia.",
+          "para": "companhia"
+        },
+        {
+          "regra": "ordinal",
+          "de": "3º",
+          "para": "terceiro"
+        },
+        {
+          "regra": "numero",
+          "de": "1.500",
+          "para": "mil e quinhentos"
+        },
+        {
+          "regra": "parenteses",
+          "de": " (diretor da companhia)",
+          "para": ", diretor da companhia,"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "O doutor Paulo Mendes, diretor da companhia, atende na avenida Brasil, número mil e quinhentos, terceiro andar.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "ʊ dowtˈor. pˈaʊlʊ mˈeɪŋdʒyz (dʒˌiɾetˈor da sˈiæ.) ˌatˈeɪŋdʒy na ˈav. brazˈiʊ, nˈũmeɾʊ mˈiʊ kˌiɲˈeɪŋtʊz, tˌeɾəsˈeɪɾw ɐ̃ŋdˈar.",
+      "fonemas_adaptado": "ʊ dowtˈor pˈaʊlʊ mˈeɪŋdʒys, dʒˌiɾetˈor da kˌompɐ̃ɲˈiæ, ˌatˈeɪŋdʒy na ˌavenˈidæ brazˈiʊ, nˈũmeɾʊ mˈiʊ i kˌiɲˈeɪŋtʊs, tˌeɾəsˈeɪɾw ɐ̃ŋdˈar.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "pausa indevida depois de 'Dr.'",
+            "trecho": "dowtˈor.",
+            "ok": false
+          },
+          {
+            "descricao": "'Cia.' lido como 'cia'",
+            "trecho": "sˈiæ",
+            "ok": false
+          },
+          {
+            "descricao": "'Av.' lido como 'áv'",
+            "trecho": "ˈav.",
+            "ok": false
+          },
+          {
+            "descricao": "'companhia'",
+            "trecho": "kˌompɐ̃ɲˈiæ",
+            "ok": false
+          },
+          {
+            "descricao": "'avenida'",
+            "trecho": "ˌavenˈidæ",
+            "ok": false
+          },
+          {
+            "descricao": "'mil e quinhentos'",
+            "trecho": "mˈiʊ i kˌiɲˈeɪŋtʊs",
+            "ok": false
+          },
+          {
+            "descricao": "'terceiro andar'",
+            "trecho": "tˌeɾəsˈeɪɾw",
+            "ok": true
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "pausa indevida depois de 'Dr.'",
+            "trecho": "dowtˈor.",
+            "ok": true
+          },
+          {
+            "descricao": "'Cia.' lido como 'cia'",
+            "trecho": "sˈiæ",
+            "ok": true
+          },
+          {
+            "descricao": "'Av.' lido como 'áv'",
+            "trecho": "ˈav.",
+            "ok": true
+          },
+          {
+            "descricao": "'companhia'",
+            "trecho": "kˌompɐ̃ɲˈiæ",
+            "ok": true
+          },
+          {
+            "descricao": "'avenida'",
+            "trecho": "ˌavenˈidæ",
+            "ok": true
+          },
+          {
+            "descricao": "'mil e quinhentos'",
+            "trecho": "mˈiʊ i kˌiɲˈeɪŋtʊs",
+            "ok": true
+          },
+          {
+            "descricao": "'terceiro andar'",
+            "trecho": "tˌeɾəsˈeɪɾw",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "06-abreviacoes_kokoro_A-original.wav",
+            "duracao_s": 5.87,
+            "fala_s": 5.26,
+            "silabas": 31,
+            "silabas_por_s": 5.89,
+            "pausas": 2,
+            "pausa_total_s": 0.45,
+            "pausa_media_s": 0.23,
+            "pausa_maior_s": 0.23,
+            "pausa_pct": 7.9,
+            "f0_mediana_hz": 177.8,
+            "f0_variacao_st": 3.08,
+            "f0_faixa_st": 8.3,
+            "pico_dbfs": -3.3,
+            "lista_pausas": [
+              [
+                2.3,
+                0.23
+              ],
+              [
+                3.34,
+                0.22
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "06-abreviacoes_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 6.23,
+            "fala_s": 5.92,
+            "silabas": 37,
+            "silabas_por_s": 6.25,
+            "pausas": 1,
+            "pausa_total_s": 0.24,
+            "pausa_media_s": 0.24,
+            "pausa_maior_s": 0.24,
+            "pausa_pct": 3.9,
+            "f0_mediana_hz": 170.8,
+            "f0_variacao_st": 2.78,
+            "f0_faixa_st": 8.61,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                2.53,
+                0.24
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "06-abreviacoes_piper_A-original.wav",
+            "duracao_s": 7.09,
+            "fala_s": 4.78,
+            "silabas": 31,
+            "silabas_por_s": 6.49,
+            "pausas": 4,
+            "pausa_total_s": 1.78,
+            "pausa_media_s": 0.45,
+            "pausa_maior_s": 0.57,
+            "pausa_pct": 27.1,
+            "f0_mediana_hz": 149.0,
+            "f0_variacao_st": 2.94,
+            "f0_faixa_st": 9.28,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                0.74,
+                0.55
+              ],
+              [
+                2.76,
+                0.53
+              ],
+              [
+                3.93,
+                0.57
+              ],
+              [
+                4.93,
+                0.13
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "06-abreviacoes_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 6.08,
+            "fala_s": 5.89,
+            "silabas": 37,
+            "silabas_por_s": 6.28,
+            "pausas": 1,
+            "pausa_total_s": 0.15,
+            "pausa_media_s": 0.15,
+            "pausa_maior_s": 0.15,
+            "pausa_pct": 2.5,
+            "f0_mediana_hz": 169.6,
+            "f0_variacao_st": 2.67,
+            "f0_faixa_st": 8.8,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.79,
+                0.15
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "07-conversa",
+      "categoria": "Fala conversacional",
+      "perfil": "conversacional",
+      "original": "Oi, tudo bem? O vídeo está pronto para você revisar, não é? Qualquer coisa, me chama no WhatsApp.",
+      "adaptado": "Oi, tudo bem? O vídeo tá pronto pra você revisar, né? Qualquer coisa, me chama no uátsáp.",
+      "mudancas": [
+        {
+          "regra": "dicionario",
+          "de": "WhatsApp",
+          "para": "uátsáp"
+        },
+        {
+          "regra": "contracao",
+          "de": "para",
+          "para": "pra"
+        },
+        {
+          "regra": "contracao",
+          "de": "está",
+          "para": "tá"
+        },
+        {
+          "regra": "contracao",
+          "de": "não é?",
+          "para": "né?"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "Oi, tudo bem?",
+          "pausa": 0.396,
+          "tipo": "frase"
+        },
+        {
+          "falado": "O vídeo tá pronto pra você revisar, né?",
+          "pausa": 0.396,
+          "tipo": "frase"
+        },
+        {
+          "falado": "Qualquer coisa, me chama no uátsáp.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "ˈoɪ, tˈudʊ bˈeɪŋ? ʊ vˈidʒjw estˌa prˈoŋtʊ pˌaɾæ vosˌe xˌevizˈar, nˌɐ̃ʊ̃ ɛ? kwaʊkˌɛr kˈoɪzæ, my ʃˈɐ̃mæ nʊ wˈatz ˈap.",
+      "fonemas_adaptado": "ˈoɪ, tˈudʊ bˈeɪŋ? ʊ vˈidʒjʊ tˈa prˈoŋtʊ pra vosˌe xˌevizˈar, nˈɛ? kwaʊkˌɛr kˈoɪzæ, my ʃˈɐ̃mæ nʊ wˈatsˈap.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'tá pronto pra você'",
+            "trecho": "tˈa prˈoŋtʊ pra",
+            "ok": false
+          },
+          {
+            "descricao": "'né?'",
+            "trecho": "nˈɛ?",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'tá pronto pra você'",
+            "trecho": "tˈa prˈoŋtʊ pra",
+            "ok": true
+          },
+          {
+            "descricao": "'né?'",
+            "trecho": "nˈɛ?",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "07-conversa_kokoro_A-original.wav",
+            "duracao_s": 5.44,
+            "fala_s": 4.8,
+            "silabas": 29,
+            "silabas_por_s": 6.04,
+            "pausas": 2,
+            "pausa_total_s": 0.49,
+            "pausa_media_s": 0.24,
+            "pausa_maior_s": 0.25,
+            "pausa_pct": 9.3,
+            "f0_mediana_hz": 176.5,
+            "f0_variacao_st": 2.81,
+            "f0_faixa_st": 8.81,
+            "pico_dbfs": -4.0,
+            "lista_pausas": [
+              [
+                0.88,
+                0.24
+              ],
+              [
+                3.22,
+                0.25
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "07-conversa_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 6.36,
+            "fala_s": 5.41,
+            "silabas": 27,
+            "silabas_por_s": 4.99,
+            "pausas": 2,
+            "pausa_total_s": 0.9,
+            "pausa_media_s": 0.45,
+            "pausa_maior_s": 0.47,
+            "pausa_pct": 14.3,
+            "f0_mediana_hz": 179.1,
+            "f0_variacao_st": 3.09,
+            "f0_faixa_st": 10.26,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                0.98,
+                0.43
+              ],
+              [
+                3.76,
+                0.47
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "07-conversa_piper_A-original.wav",
+            "duracao_s": 6.23,
+            "fala_s": 4.36,
+            "silabas": 29,
+            "silabas_por_s": 6.65,
+            "pausas": 3,
+            "pausa_total_s": 1.26,
+            "pausa_media_s": 0.42,
+            "pausa_maior_s": 0.55,
+            "pausa_pct": 22.4,
+            "f0_mediana_hz": 151.0,
+            "f0_variacao_st": 2.88,
+            "f0_faixa_st": 9.25,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                1.06,
+                0.52
+              ],
+              [
+                3.16,
+                0.19
+              ],
+              [
+                3.73,
+                0.55
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "07-conversa_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 6.05,
+            "fala_s": 4.65,
+            "silabas": 27,
+            "silabas_por_s": 5.81,
+            "pausas": 4,
+            "pausa_total_s": 1.35,
+            "pausa_media_s": 0.34,
+            "pausa_maior_s": 0.52,
+            "pausa_pct": 22.5,
+            "f0_mediana_hz": 154.2,
+            "f0_variacao_st": 2.93,
+            "f0_faixa_st": 9.26,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                0.3,
+                0.14
+              ],
+              [
+                0.91,
+                0.52
+              ],
+              [
+                3.11,
+                0.22
+              ],
+              [
+                3.72,
+                0.47
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "08-estrangeirismos",
+      "categoria": "Estrangeirismos do dia a dia",
+      "perfil": "conversacional",
+      "original": "Baixe o app, faça login e mande seu feedback por email: o download é grátis e o design ficou ótimo.",
+      "adaptado": "Baixe o épi, faça login e mande seu fídbék por imêil: o download é grátis e o dizáin ficou ótimo.",
+      "mudancas": [
+        {
+          "regra": "dicionario",
+          "de": "app",
+          "para": "épi"
+        },
+        {
+          "regra": "dicionario",
+          "de": "feedback",
+          "para": "fídbék"
+        },
+        {
+          "regra": "dicionario",
+          "de": "email",
+          "para": "imêil"
+        },
+        {
+          "regra": "dicionario",
+          "de": "design",
+          "para": "dizáin"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "Baixe o épi, faça login e mande seu fídbék por imêil: o download é grátis e o dizáin ficou ótimo.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "bˈaɪʃj u ˈap, fˈasæ loɡˈiŋ i mˈɐ̃ŋdʒy seʊ fˌeedbˈak poɾ ˌemaˈiʊ: ʊ daʊŋlˈowd ɛ ɡrˈatʃiz i ʊ dezˈaɪn fikˈow ˈɔtʃimʊ.",
+      "fonemas_adaptado": "bˈaɪʃj u ˈɛpi, fˈasæ loɡˈiŋ i mˈɐ̃ŋdʒy seʊ fˈidbˈɛk poɾ ˌimˈeiʊ: ʊ daʊŋlˈowd ɛ ɡrˈatʃiz i ʊ dʒˌizˈain fikˈow ˈɔtʃimʊ.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'feedback' lido como 'feedbác'",
+            "trecho": "fˌeedbˈak",
+            "ok": false
+          },
+          {
+            "descricao": "'email' lido como 'emaíu'",
+            "trecho": "ˌemaˈiʊ",
+            "ok": false
+          },
+          {
+            "descricao": "'design' lido como 'dezáin'",
+            "trecho": "dezˈaɪn",
+            "ok": false
+          },
+          {
+            "descricao": "'fídbék'",
+            "trecho": "fˈidbˈɛk",
+            "ok": false
+          },
+          {
+            "descricao": "'imêil'",
+            "trecho": "ˌimˈeiʊ",
+            "ok": false
+          },
+          {
+            "descricao": "'dizáin'",
+            "trecho": "dʒˌizˈain",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'feedback' lido como 'feedbác'",
+            "trecho": "fˌeedbˈak",
+            "ok": true
+          },
+          {
+            "descricao": "'email' lido como 'emaíu'",
+            "trecho": "ˌemaˈiʊ",
+            "ok": true
+          },
+          {
+            "descricao": "'design' lido como 'dezáin'",
+            "trecho": "dezˈaɪn",
+            "ok": true
+          },
+          {
+            "descricao": "'fídbék'",
+            "trecho": "fˈidbˈɛk",
+            "ok": true
+          },
+          {
+            "descricao": "'imêil'",
+            "trecho": "ˌimˈeiʊ",
+            "ok": true
+          },
+          {
+            "descricao": "'dizáin'",
+            "trecho": "dʒˌizˈain",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "08-estrangeirismos_kokoro_A-original.wav",
+            "duracao_s": 5.78,
+            "fala_s": 5.29,
+            "silabas": 32,
+            "silabas_por_s": 6.05,
+            "pausas": 1,
+            "pausa_total_s": 0.37,
+            "pausa_media_s": 0.37,
+            "pausa_maior_s": 0.37,
+            "pausa_pct": 6.5,
+            "f0_mediana_hz": 175.2,
+            "f0_variacao_st": 2.77,
+            "f0_faixa_st": 9.28,
+            "pico_dbfs": -3.3,
+            "lista_pausas": [
+              [
+                2.88,
+                0.37
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "08-estrangeirismos_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 5.52,
+            "fala_s": 5.11,
+            "silabas": 32,
+            "silabas_por_s": 6.26,
+            "pausas": 1,
+            "pausa_total_s": 0.36,
+            "pausa_media_s": 0.36,
+            "pausa_maior_s": 0.36,
+            "pausa_pct": 6.6,
+            "f0_mediana_hz": 175.2,
+            "f0_variacao_st": 3.01,
+            "f0_faixa_st": 10.31,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                2.78,
+                0.36
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "08-estrangeirismos_piper_A-original.wav",
+            "duracao_s": 5.93,
+            "fala_s": 5.07,
+            "silabas": 32,
+            "silabas_por_s": 6.31,
+            "pausas": 2,
+            "pausa_total_s": 0.36,
+            "pausa_media_s": 0.18,
+            "pausa_maior_s": 0.22,
+            "pausa_pct": 6.6,
+            "f0_mediana_hz": 173.6,
+            "f0_variacao_st": 2.65,
+            "f0_faixa_st": 8.77,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                0.89,
+                0.22
+              ],
+              [
+                3.19,
+                0.14
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "08-estrangeirismos_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 6.0,
+            "fala_s": 5.61,
+            "silabas": 32,
+            "silabas_por_s": 5.7,
+            "pausas": 2,
+            "pausa_total_s": 0.35,
+            "pausa_media_s": 0.17,
+            "pausa_maior_s": 0.19,
+            "pausa_pct": 5.9,
+            "f0_mediana_hz": 172.3,
+            "f0_variacao_st": 2.68,
+            "f0_faixa_st": 9.04,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                0.79,
+                0.19
+              ],
+              [
+                3.34,
+                0.16
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "09-romanos-ordinais",
+      "categoria": "Numerais romanos e ordinais",
+      "perfil": "jornalistico",
+      "original": "No século XXI, Dom Pedro II ainda é lembrado: a 2ª edição do livro chegou ao 1º lugar.",
+      "adaptado": "No século vinte e um, Dom Pedro segundo ainda é lembrado: a segunda edição do livro chegou ao primeiro lugar.",
+      "mudancas": [
+        {
+          "regra": "ordinal",
+          "de": "2ª",
+          "para": "segunda"
+        },
+        {
+          "regra": "ordinal",
+          "de": "1º",
+          "para": "primeiro"
+        },
+        {
+          "regra": "romano",
+          "de": "século XXI",
+          "para": "século vinte e um"
+        },
+        {
+          "regra": "romano",
+          "de": "Dom Pedro II",
+          "para": "Dom Pedro segundo"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "No século vinte e um, Dom Pedro segundo ainda é lembrado: a segunda edição do livro chegou ao primeiro lugar.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "nʊ sˈɛkulʊ vˈiŋtʃyiˈũŋ, dˈoŋ pˈedrʊ dˈoɪz ˌaˈiŋdæ ɛ lˌeɪmbrˈadʊ: a sˌeɡˈũŋdæ ˌedʒisˈɐ̃ʊ̃ dʊ lˈivrʊ ʃeɡˈow aʊ prˌimˈeɪɾʊ luɡˈar.",
+      "fonemas_adaptado": "nʊ sˈɛkulʊ vˈiŋtʃj i ˈũŋ, dˈoŋ pˈedrʊ sˌeɡˈũŋdw ˌaˈiŋdæ ɛ lˌeɪmbrˈadʊ: a sˌeɡˈũŋdæ ˌedʒisˈɐ̃ʊ̃ dʊ lˈivrʊ ʃeɡˈow aʊ prˌimˈeɪɾʊ luɡˈar.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'Pedro II' lido como 'Pedro dois'",
+            "trecho": "pˈedrʊ dˈoɪz",
+            "ok": false
+          },
+          {
+            "descricao": "'vinte e um' com 'um' tônico",
+            "trecho": "ˈũŋ,",
+            "ok": true
+          },
+          {
+            "descricao": "'Pedro segundo'",
+            "trecho": "pˈedrʊ sˌeɡˈũŋdw",
+            "ok": false
+          },
+          {
+            "descricao": "'segunda edição'",
+            "trecho": "sˌeɡˈũŋdæ",
+            "ok": true
+          },
+          {
+            "descricao": "'primeiro lugar'",
+            "trecho": "prˌimˈeɪɾʊ",
+            "ok": true
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'Pedro II' lido como 'Pedro dois'",
+            "trecho": "pˈedrʊ dˈoɪz",
+            "ok": true
+          },
+          {
+            "descricao": "'vinte e um' com 'um' tônico",
+            "trecho": "ˈũŋ,",
+            "ok": true
+          },
+          {
+            "descricao": "'Pedro segundo'",
+            "trecho": "pˈedrʊ sˌeɡˈũŋdw",
+            "ok": true
+          },
+          {
+            "descricao": "'segunda edição'",
+            "trecho": "sˌeɡˈũŋdæ",
+            "ok": true
+          },
+          {
+            "descricao": "'primeiro lugar'",
+            "trecho": "prˌimˈeɪɾʊ",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "09-romanos-ordinais_kokoro_A-original.wav",
+            "duracao_s": 5.99,
+            "fala_s": 5.44,
+            "silabas": 36,
+            "silabas_por_s": 6.62,
+            "pausas": 1,
+            "pausa_total_s": 0.41,
+            "pausa_media_s": 0.41,
+            "pausa_maior_s": 0.41,
+            "pausa_pct": 7.0,
+            "f0_mediana_hz": 171.4,
+            "f0_variacao_st": 2.8,
+            "f0_faixa_st": 8.73,
+            "pico_dbfs": -0.8,
+            "lista_pausas": [
+              [
+                3.01,
+                0.41
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "09-romanos-ordinais_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 5.94,
+            "fala_s": 5.48,
+            "silabas": 37,
+            "silabas_por_s": 6.75,
+            "pausas": 1,
+            "pausa_total_s": 0.39,
+            "pausa_media_s": 0.39,
+            "pausa_maior_s": 0.39,
+            "pausa_pct": 6.6,
+            "f0_mediana_hz": 171.4,
+            "f0_variacao_st": 2.81,
+            "f0_faixa_st": 9.17,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.04,
+                0.39
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "09-romanos-ordinais_piper_A-original.wav",
+            "duracao_s": 5.67,
+            "fala_s": 4.82,
+            "silabas": 36,
+            "silabas_por_s": 7.47,
+            "pausas": 2,
+            "pausa_total_s": 0.32,
+            "pausa_media_s": 0.16,
+            "pausa_maior_s": 0.18,
+            "pausa_pct": 6.2,
+            "f0_mediana_hz": 162.1,
+            "f0_variacao_st": 2.66,
+            "f0_faixa_st": 8.84,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                1.19,
+                0.14
+              ],
+              [
+                2.98,
+                0.18
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "09-romanos-ordinais_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 5.64,
+            "fala_s": 5.22,
+            "silabas": 37,
+            "silabas_por_s": 7.09,
+            "pausas": 2,
+            "pausa_total_s": 0.38,
+            "pausa_media_s": 0.19,
+            "pausa_maior_s": 0.21,
+            "pausa_pct": 6.8,
+            "f0_mediana_hz": 163.3,
+            "f0_variacao_st": 2.7,
+            "f0_faixa_st": 8.62,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                1.25,
+                0.17
+              ],
+              [
+                3.11,
+                0.21
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "10-frase-longa",
+      "categoria": "Frase longa sem pontuação (respiração)",
+      "perfil": "institucional",
+      "original": "O estúdio prepara o roteiro com cuidado antes de gravar a narração completa do projeto e depois sincroniza cada cena com a duração real do áudio gerado pelo motor local para que nada fique fora do tempo.",
+      "adaptado": "O estúdio prepara o roteiro com cuidado antes de gravar a narração completa do projeto, e depois sincroniza cada cena com a duração real do áudio gerado pelo motor local para que nada fique fora do tempo.",
+      "mudancas": [
+        {
+          "regra": "respiracao",
+          "de": "… do projeto e depois …",
+          "para": "… do projeto, e depois …"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "O estúdio prepara o roteiro com cuidado antes de gravar a narração completa do projeto, e depois sincroniza cada cena com a duração real do áudio gerado pelo motor local para que nada fique fora do tempo.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "u ˌestˈudʒjʊ prˌepˈaɾæ ʊ xˌotˈeɪɾʊ koŋ kˌuɪdˈadw ˈɐ̃ŋtʃyz dʒy ɡravˈaɾ a nˌaxasˈɐ̃ʊ̃ kˌomplˈɛtæ dʊ prˌoʒˈɛtw i depˈoɪs sˌiŋkronˈizæ kˈadæ sˈenæ koŋ a dˌuɾasˈɐ̃ʊ̃ xeˈaʊ dʊ ˈaʊdʒiʊ ʒˌeɾˈadʊ pˈelʊ motˈor lokˈaʊ pˌaɾækˈi nˈadæ fˈiky fˈɔɾæ dʊ tˈeɪmpʊ.",
+      "fonemas_adaptado": "u ˌestˈudʒjʊ prˌepˈaɾæ ʊ xˌotˈeɪɾʊ koŋ kˌuɪdˈadw ˈɐ̃ŋtʃyz dʒy ɡravˈaɾ a nˌaxasˈɐ̃ʊ̃ kˌomplˈɛtæ dʊ prˌoʒˈɛtʊ, i depˈoɪs sˌiŋkronˈizæ kˈadæ sˈenæ koŋ a dˌuɾasˈɐ̃ʊ̃ xeˈaʊ dʊ ˈaʊdʒiʊ ʒˌeɾˈadʊ pˈelʊ motˈor lokˈaʊ pˌaɾækˈi nˈadæ fˈiky fˈɔɾæ dʊ tˈeɪmpʊ.",
+      "pronuncia": {
+        "original": [],
+        "adaptado": []
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "10-frase-longa_kokoro_A-original.wav",
+            "duracao_s": 12.07,
+            "fala_s": 11.3,
+            "silabas": 71,
+            "silabas_por_s": 6.28,
+            "pausas": 2,
+            "pausa_total_s": 0.65,
+            "pausa_media_s": 0.33,
+            "pausa_maior_s": 0.45,
+            "pausa_pct": 5.4,
+            "f0_mediana_hz": 170.2,
+            "f0_variacao_st": 2.95,
+            "f0_faixa_st": 9.29,
+            "pico_dbfs": -3.5,
+            "lista_pausas": [
+              [
+                6.26,
+                0.45
+              ],
+              [
+                8.79,
+                0.2
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "10-frase-longa_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 12.05,
+            "fala_s": 11.27,
+            "silabas": 72,
+            "silabas_por_s": 6.39,
+            "pausas": 2,
+            "pausa_total_s": 0.72,
+            "pausa_media_s": 0.36,
+            "pausa_maior_s": 0.53,
+            "pausa_pct": 6.0,
+            "f0_mediana_hz": 165.5,
+            "f0_variacao_st": 2.91,
+            "f0_faixa_st": 9.49,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                4.79,
+                0.53
+              ],
+              [
+                8.66,
+                0.19
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "10-frase-longa_piper_A-original.wav",
+            "duracao_s": 10.73,
+            "fala_s": 10.22,
+            "silabas": 71,
+            "silabas_por_s": 6.95,
+            "pausas": 0,
+            "pausa_total_s": 0,
+            "pausa_media_s": 0.0,
+            "pausa_maior_s": 0.0,
+            "pausa_pct": 0.0,
+            "f0_mediana_hz": 175.0,
+            "f0_variacao_st": 2.38,
+            "f0_faixa_st": 7.56,
+            "pico_dbfs": -0.0,
+            "lista_pausas": []
+          },
+          "B": {
+            "arquivo": "10-frase-longa_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 11.11,
+            "fala_s": 10.82,
+            "silabas": 72,
+            "silabas_por_s": 6.65,
+            "pausas": 1,
+            "pausa_total_s": 0.28,
+            "pausa_media_s": 0.28,
+            "pausa_maior_s": 0.28,
+            "pausa_pct": 2.5,
+            "f0_mediana_hz": 175.0,
+            "f0_variacao_st": 2.31,
+            "f0_faixa_st": 7.34,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                4.62,
+                0.28
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "11-frases-curtas",
+      "categoria": "Sequência de frases (pausas)",
+      "perfil": "institucional",
+      "original": "Pronto. Tudo o que você vê e ouve foi produzido no seu próprio computador. Sem nuvem. Sem assinatura. Agora é a sua vez de criar.",
+      "adaptado": "Pronto. Tudo o que você vê e ouve foi produzido no seu próprio computador. Sem nuvem. Sem assinatura. Agora é a sua vez de criar.",
+      "mudancas": [],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "Pronto.",
+          "pausa": 0.42,
+          "tipo": "frase"
+        },
+        {
+          "falado": "Tudo o que você vê e ouve foi produzido no seu próprio computador.",
+          "pausa": 0.42,
+          "tipo": "frase"
+        },
+        {
+          "falado": "Sem nuvem.",
+          "pausa": 0.42,
+          "tipo": "frase"
+        },
+        {
+          "falado": "Sem assinatura.",
+          "pausa": 0.42,
+          "tipo": "frase"
+        },
+        {
+          "falado": "Agora é a sua vez de criar.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "prˈoŋtʊ. tˈudw ʊ ky vosˌe vˈe i ˈowvy foɪ prˌoduzˈidʊ nʊ seʊ prˈɔprjʊ kˌomputadˈor. sˈeɪŋ nˈuveɪŋ. sˈeɪŋ ˌasinatˈuɾæ. ˌaɡˈɔɾæ ɛ a sˌuæ vˈez dʒy kriˈar.",
+      "fonemas_adaptado": "prˈoŋtʊ. tˈudw ʊ ky vosˌe vˈe i ˈowvy foɪ prˌoduzˈidʊ nʊ seʊ prˈɔprjʊ kˌomputadˈor. sˈeɪŋ nˈuveɪŋ. sˈeɪŋ ˌasinatˈuɾæ. ˌaɡˈɔɾæ ɛ a sˌuæ vˈez dʒy kriˈar.",
+      "pronuncia": {
+        "original": [],
+        "adaptado": []
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "11-frases-curtas_kokoro_A-original.wav",
+            "duracao_s": 7.49,
+            "fala_s": 6.6,
+            "silabas": 43,
+            "silabas_por_s": 6.52,
+            "pausas": 3,
+            "pausa_total_s": 0.72,
+            "pausa_media_s": 0.24,
+            "pausa_maior_s": 0.27,
+            "pausa_pct": 9.8,
+            "f0_mediana_hz": 173.9,
+            "f0_variacao_st": 2.88,
+            "f0_faixa_st": 9.5,
+            "pico_dbfs": -4.3,
+            "lista_pausas": [
+              [
+                3.57,
+                0.27
+              ],
+              [
+                4.61,
+                0.21
+              ],
+              [
+                5.78,
+                0.24
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "11-frases-curtas_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 9.87,
+            "fala_s": 7.91,
+            "silabas": 43,
+            "silabas_por_s": 5.44,
+            "pausas": 4,
+            "pausa_total_s": 1.91,
+            "pausa_media_s": 0.48,
+            "pausa_maior_s": 0.49,
+            "pausa_pct": 19.5,
+            "f0_mediana_hz": 181.8,
+            "f0_variacao_st": 3.2,
+            "f0_faixa_st": 10.1,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                0.66,
+                0.48
+              ],
+              [
+                4.76,
+                0.49
+              ],
+              [
+                6.03,
+                0.47
+              ],
+              [
+                7.55,
+                0.47
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "11-frases-curtas_piper_A-original.wav",
+            "duracao_s": 8.81,
+            "fala_s": 6.19,
+            "silabas": 43,
+            "silabas_por_s": 6.95,
+            "pausas": 4,
+            "pausa_total_s": 2.1,
+            "pausa_media_s": 0.53,
+            "pausa_maior_s": 0.55,
+            "pausa_pct": 25.3,
+            "f0_mediana_hz": 152.1,
+            "f0_variacao_st": 3.8,
+            "f0_faixa_st": 11.48,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                0.6,
+                0.52
+              ],
+              [
+                4.39,
+                0.55
+              ],
+              [
+                5.51,
+                0.52
+              ],
+              [
+                6.88,
+                0.51
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "11-frases-curtas_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 8.63,
+            "fala_s": 6.6,
+            "silabas": 43,
+            "silabas_por_s": 6.52,
+            "pausas": 4,
+            "pausa_total_s": 1.99,
+            "pausa_media_s": 0.5,
+            "pausa_maior_s": 0.53,
+            "pausa_pct": 23.2,
+            "f0_mediana_hz": 149.0,
+            "f0_variacao_st": 3.7,
+            "f0_faixa_st": 11.57,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                0.43,
+                0.46
+              ],
+              [
+                4.39,
+                0.48
+              ],
+              [
+                5.45,
+                0.53
+              ],
+              [
+                6.84,
+                0.52
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "12-enderecos",
+      "categoria": "Site e e-mail",
+      "perfil": "comercial",
+      "original": "Acesse www.exemplo.com.br ou escreva para contato@exemplo.com.br.",
+      "adaptado": "Acesse dáblio dáblio dáblio ponto exemplo ponto com ponto bê érre, ou escreva para contato arroba exemplo ponto com ponto bê érre.",
+      "mudancas": [
+        {
+          "regra": "email",
+          "de": "contato@exemplo.com.br",
+          "para": "contato arroba exemplo ponto com ponto bê érre"
+        },
+        {
+          "regra": "url",
+          "de": "www.exemplo.com.br",
+          "para": "dáblio dáblio dáblio ponto exemplo ponto com ponto bê érre"
+        },
+        {
+          "regra": "respiracao",
+          "de": "… bê érre ou escreva …",
+          "para": "… bê érre, ou escreva …"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "Acesse dáblio dáblio dáblio ponto exemplo ponto com ponto bê érre, ou escreva para contato arroba exemplo ponto com ponto bê érre.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "ˌasˈɛsy dˌabljudˌabljudˈablju.ˌezˈeɪmplʊ.koŋ.bˌeˈɛxe ow ˌeskrˈevæ pˌaɾæ kˌoŋtˈatw ˌaxˈobæ ˌezˈeɪmplʊ.koŋ.bˌeˈɛxe.",
+      "fonemas_adaptado": "ˌasˈɛsy dˈabljʊ dˈabljʊ dˈabljʊ pˈoŋtw ˌezˈeɪmplʊ pˈoŋtʊ koŋ pˈoŋtʊ bˈe ˈɛxy, ow ˌeskrˈevæ pˌaɾæ kˌoŋtˈatw ˌaxˈobæ ˌezˈeɪmplʊ pˈoŋtʊ koŋ pˈoŋtʊ bˈe ˈɛxy.",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'ponto com ponto bê érre'",
+            "trecho": "pˈoŋtʊ bˈe ˈɛx",
+            "ok": false
+          },
+          {
+            "descricao": "'arroba'",
+            "trecho": "axˈobæ",
+            "ok": true
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'ponto com ponto bê érre'",
+            "trecho": "pˈoŋtʊ bˈe ˈɛx",
+            "ok": true
+          },
+          {
+            "descricao": "'arroba'",
+            "trecho": "axˈobæ",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "12-enderecos_kokoro_A-original.wav",
+            "duracao_s": 5.57,
+            "fala_s": 5.18,
+            "silabas": 34,
+            "silabas_por_s": 6.56,
+            "pausas": 1,
+            "pausa_total_s": 0.27,
+            "pausa_media_s": 0.27,
+            "pausa_maior_s": 0.27,
+            "pausa_pct": 5.0,
+            "f0_mediana_hz": 171.4,
+            "f0_variacao_st": 2.91,
+            "f0_faixa_st": 8.94,
+            "pico_dbfs": -4.3,
+            "lista_pausas": [
+              [
+                1.97,
+                0.27
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "12-enderecos_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 6.93,
+            "fala_s": 6.47,
+            "silabas": 43,
+            "silabas_por_s": 6.65,
+            "pausas": 1,
+            "pausa_total_s": 0.4,
+            "pausa_media_s": 0.4,
+            "pausa_maior_s": 0.4,
+            "pausa_pct": 5.8,
+            "f0_mediana_hz": 169.0,
+            "f0_variacao_st": 2.5,
+            "f0_faixa_st": 8.87,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.28,
+                0.4
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "12-enderecos_piper_A-original.wav",
+            "duracao_s": 6.47,
+            "fala_s": 5.98,
+            "silabas": 34,
+            "silabas_por_s": 5.69,
+            "pausas": 0,
+            "pausa_total_s": 0,
+            "pausa_media_s": 0.0,
+            "pausa_maior_s": 0.0,
+            "pausa_pct": 0.0,
+            "f0_mediana_hz": 177.1,
+            "f0_variacao_st": 3.12,
+            "f0_faixa_st": 10.33,
+            "pico_dbfs": -0.0,
+            "lista_pausas": []
+          },
+          "B": {
+            "arquivo": "12-enderecos_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 6.42,
+            "fala_s": 6.22,
+            "silabas": 43,
+            "silabas_por_s": 6.91,
+            "pausas": 1,
+            "pausa_total_s": 0.16,
+            "pausa_media_s": 0.16,
+            "pausa_maior_s": 0.16,
+            "pausa_pct": 2.5,
+            "f0_mediana_hz": 172.3,
+            "f0_variacao_st": 3.1,
+            "f0_faixa_st": 10.07,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                3.27,
+                0.16
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "13-chamada",
+      "categoria": "Chamada com pausa marcada",
+      "perfil": "comercial",
+      "original": "Quer vender mais? Então anote: 3x sem juros, de 2ª a 6ª, das 9h às 18h!",
+      "adaptado": "Quer vender mais? Então anote: três vezes sem juros, de segunda a sexta, das nove da manhã às seis da noite!",
+      "mudancas": [
+        {
+          "regra": "hora",
+          "de": "das 9h",
+          "para": "das nove da manhã"
+        },
+        {
+          "regra": "hora",
+          "de": "às 18h",
+          "para": "às seis da noite"
+        },
+        {
+          "regra": "ordinal",
+          "de": "2ª",
+          "para": "segunda"
+        },
+        {
+          "regra": "ordinal",
+          "de": "6ª",
+          "para": "sexta"
+        },
+        {
+          "regra": "multiplicador",
+          "de": "3x",
+          "para": "três vezes"
+        }
+      ],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "Quer vender mais?",
+          "pausa": 0.5,
+          "tipo": "explicita"
+        },
+        {
+          "falado": "Então anote: três vezes sem juros, de segunda a sexta, das nove da manhã às seis da noite!",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "kˈɛr veɪŋdˈer mˈaɪs? eɪŋtˈɐ̃ʊ̃ ˌænˈɔtʃy: trˈes ʃˈis sˈeɪŋ ʒˈuɾʊs, dʒy sˌeɡˈũŋdæ a sˈestæ, das nˈɔvy aɡˈa aːs dˌezˈoɪtw aɡˈa!",
+      "fonemas_adaptado": "kˈɛr veɪŋdˈer mˈaɪs? eɪŋtˈɐ̃ʊ̃ ˌænˈɔtʃy: trˈez vˈezys sˈeɪŋ ʒˈuɾʊs, dʒy sˌeɡˈũŋdæ a sˈestæ, daz nˈɔvy da mɐ̃ɲˈɐ̃ aːs sˈeɪz da nˈoɪtʃy!",
+      "pronuncia": {
+        "original": [
+          {
+            "descricao": "'3x' lido como 'três xis'",
+            "trecho": "ʃˈis",
+            "ok": false
+          },
+          {
+            "descricao": "'9h' lido como 'nove agá'",
+            "trecho": "aɡˈa",
+            "ok": false
+          },
+          {
+            "descricao": "'três vezes'",
+            "trecho": "vˈezys",
+            "ok": false
+          },
+          {
+            "descricao": "'de segunda a sexta'",
+            "trecho": "sˈestæ",
+            "ok": true
+          },
+          {
+            "descricao": "'das nove da manhã'",
+            "trecho": "mɐ̃ɲˈɐ̃",
+            "ok": false
+          }
+        ],
+        "adaptado": [
+          {
+            "descricao": "'3x' lido como 'três xis'",
+            "trecho": "ʃˈis",
+            "ok": true
+          },
+          {
+            "descricao": "'9h' lido como 'nove agá'",
+            "trecho": "aɡˈa",
+            "ok": true
+          },
+          {
+            "descricao": "'três vezes'",
+            "trecho": "vˈezys",
+            "ok": true
+          },
+          {
+            "descricao": "'de segunda a sexta'",
+            "trecho": "sˈestæ",
+            "ok": true
+          },
+          {
+            "descricao": "'das nove da manhã'",
+            "trecho": "mɐ̃ɲˈɐ̃",
+            "ok": true
+          }
+        ]
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "13-chamada_kokoro_A-original.wav",
+            "duracao_s": 5.95,
+            "fala_s": 5.48,
+            "silabas": 31,
+            "silabas_por_s": 5.66,
+            "pausas": 1,
+            "pausa_total_s": 0.3,
+            "pausa_media_s": 0.3,
+            "pausa_maior_s": 0.3,
+            "pausa_pct": 5.2,
+            "f0_mediana_hz": 173.3,
+            "f0_variacao_st": 2.86,
+            "f0_faixa_st": 8.63,
+            "pico_dbfs": -4.4,
+            "lista_pausas": [
+              [
+                1.94,
+                0.3
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "13-chamada_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 6.64,
+            "fala_s": 5.64,
+            "silabas": 33,
+            "silabas_por_s": 5.85,
+            "pausas": 3,
+            "pausa_total_s": 0.93,
+            "pausa_media_s": 0.31,
+            "pausa_maior_s": 0.55,
+            "pausa_pct": 14.2,
+            "f0_mediana_hz": 184.6,
+            "f0_variacao_st": 2.86,
+            "f0_faixa_st": 8.71,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                1.1,
+                0.55
+              ],
+              [
+                2.35,
+                0.15
+              ],
+              [
+                4.59,
+                0.23
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "13-chamada_piper_A-original.wav",
+            "duracao_s": 6.73,
+            "fala_s": 5.39,
+            "silabas": 31,
+            "silabas_por_s": 5.75,
+            "pausas": 2,
+            "pausa_total_s": 0.78,
+            "pausa_media_s": 0.39,
+            "pausa_maior_s": 0.57,
+            "pausa_pct": 12.6,
+            "f0_mediana_hz": 166.4,
+            "f0_variacao_st": 2.84,
+            "f0_faixa_st": 9.51,
+            "pico_dbfs": -0.0,
+            "lista_pausas": [
+              [
+                1.09,
+                0.57
+              ],
+              [
+                2.35,
+                0.21
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "13-chamada_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 6.53,
+            "fala_s": 5.68,
+            "silabas": 33,
+            "silabas_por_s": 5.81,
+            "pausas": 2,
+            "pausa_total_s": 0.8,
+            "pausa_media_s": 0.4,
+            "pausa_maior_s": 0.56,
+            "pausa_pct": 12.3,
+            "f0_mediana_hz": 168.3,
+            "f0_variacao_st": 3.36,
+            "f0_faixa_st": 10.98,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                0.92,
+                0.56
+              ],
+              [
+                2.13,
+                0.24
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "14-controle",
+      "categoria": "Controle: texto sem nada a adaptar",
+      "perfil": "jornalistico",
+      "original": "A prefeitura anunciou nesta terça-feira um novo programa de moradia para as famílias da região central.",
+      "adaptado": "A prefeitura anunciou nesta terça-feira um novo programa de moradia para as famílias da região central.",
+      "mudancas": [],
+      "avisos": [],
+      "blocos": [
+        {
+          "falado": "A prefeitura anunciou nesta terça-feira um novo programa de moradia para as famílias da região central.",
+          "pausa": 0.0,
+          "tipo": "paragrafo"
+        }
+      ],
+      "fonemas_original": "a prˌefeɪtˈuɾæ ˌænũŋsiˈow nˌɛstæ tˈeɾəsæfˈeɪɾæ ũŋ nˈovʊ prˌoɡrˈɐ̃mæ dʒy mˌoɾadʒˈiæ pˌaɾæ as fˌæmˈiljæz da xˌeʒiˈɐ̃ʊ̃ seɪŋtrˈaʊ.",
+      "fonemas_adaptado": "a prˌefeɪtˈuɾæ ˌænũŋsiˈow nˌɛstæ tˈeɾəsæfˈeɪɾæ ũŋ nˈovʊ prˌoɡrˈɐ̃mæ dʒy mˌoɾadʒˈiæ pˌaɾæ as fˌæmˈiljæz da xˌeʒiˈɐ̃ʊ̃ seɪŋtrˈaʊ.",
+      "pronuncia": {
+        "original": [],
+        "adaptado": []
+      },
+      "audio": {
+        "kokoro": {
+          "A": {
+            "arquivo": "14-controle_kokoro_A-original.wav",
+            "duracao_s": 6.17,
+            "fala_s": 5.63,
+            "silabas": 38,
+            "silabas_por_s": 6.75,
+            "pausas": 2,
+            "pausa_total_s": 0.39,
+            "pausa_media_s": 0.2,
+            "pausa_maior_s": 0.21,
+            "pausa_pct": 6.5,
+            "f0_mediana_hz": 167.8,
+            "f0_variacao_st": 2.64,
+            "f0_faixa_st": 8.58,
+            "pico_dbfs": -1.1,
+            "lista_pausas": [
+              [
+                1.25,
+                0.18
+              ],
+              [
+                3.24,
+                0.21
+              ]
+            ]
+          },
+          "B": {
+            "arquivo": "14-controle_kokoro_B-adaptado.wav",
+            "motor_usado": "kokoro",
+            "duracao_s": 5.78,
+            "fala_s": 5.49,
+            "silabas": 38,
+            "silabas_por_s": 6.92,
+            "pausas": 1,
+            "pausa_total_s": 0.23,
+            "pausa_media_s": 0.23,
+            "pausa_maior_s": 0.23,
+            "pausa_pct": 4.0,
+            "f0_mediana_hz": 169.0,
+            "f0_variacao_st": 2.82,
+            "f0_faixa_st": 8.98,
+            "pico_dbfs": -3.0,
+            "lista_pausas": [
+              [
+                1.15,
+                0.23
+              ]
+            ]
+          }
+        },
+        "piper": {
+          "A": {
+            "arquivo": "14-controle_piper_A-original.wav",
+            "duracao_s": 5.26,
+            "fala_s": 4.75,
+            "silabas": 38,
+            "silabas_por_s": 8.0,
+            "pausas": 0,
+            "pausa_total_s": 0,
+            "pausa_media_s": 0.0,
+            "pausa_maior_s": 0.0,
+            "pausa_pct": 0.0,
+            "f0_mediana_hz": 167.0,
+            "f0_variacao_st": 2.65,
+            "f0_faixa_st": 9.0,
+            "pico_dbfs": -0.0,
+            "lista_pausas": []
+          },
+          "B": {
+            "arquivo": "14-controle_piper_B-adaptado.wav",
+            "motor_usado": "piper",
+            "duracao_s": 5.02,
+            "fala_s": 4.96,
+            "silabas": 38,
+            "silabas_por_s": 7.66,
+            "pausas": 0,
+            "pausa_total_s": 0,
+            "pausa_media_s": 0.0,
+            "pausa_maior_s": 0.0,
+            "pausa_pct": 0.0,
+            "f0_mediana_hz": 165.8,
+            "f0_variacao_st": 2.67,
+            "f0_faixa_st": 9.34,
+            "pico_dbfs": -3.0,
+            "lista_pausas": []
+          }
+        }
+      }
+    }
+  ],
+  "resumo": {
+    "frases": 14,
+    "verificacoes_de_pronuncia": 62,
+    "pronuncia_ok_original": 7,
+    "pronuncia_ok_adaptado": 62,
+    "frases_alteradas": 12,
+    "motores": {
+      "kokoro": {
+        "A": {
+          "silabas_por_s": 6.36,
+          "pausas": 1.79,
+          "pausa_media_s": 0.3,
+          "pausa_pct": 6.93,
+          "f0_variacao_st": 2.87,
+          "f0_faixa_st": 8.84,
+          "silabas_por_s_desvio": 0.37
+        },
+        "B": {
+          "silabas_por_s": 6.29,
+          "pausas": 1.79,
+          "pausa_media_s": 0.35,
+          "pausa_pct": 8.2,
+          "f0_variacao_st": 2.84,
+          "f0_faixa_st": 9.05,
+          "silabas_por_s_desvio": 0.63
+        }
+      },
+      "piper": {
+        "A": {
+          "silabas_por_s": 6.82,
+          "pausas": 1.64,
+          "pausa_media_s": 0.2,
+          "pausa_pct": 8.06,
+          "f0_variacao_st": 2.77,
+          "f0_faixa_st": 8.94,
+          "silabas_por_s_desvio": 0.65
+        },
+        "B": {
+          "silabas_por_s": 6.46,
+          "pausas": 2.0,
+          "pausa_media_s": 0.2,
+          "pausa_pct": 7.04,
+          "f0_variacao_st": 2.78,
+          "f0_faixa_st": 9.09,
+          "silabas_por_s_desvio": 0.59
+        }
+      }
+    }
+  }
+}

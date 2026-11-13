@@ -1,0 +1,19 @@
+﻿# Python
+**/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Node.js
+**/node_modules/
+
+# Ambientes e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários
+*.log
+.DS_Store
+Thumbs.db
+
+audio-engine/models/

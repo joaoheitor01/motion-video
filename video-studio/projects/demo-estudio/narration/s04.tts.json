@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s04.wav",
+  "sample_rate": 24000,
+  "duration_s": 5.86,
+  "engine": "kokoro",
+  "voice": "pf_dora",
+  "alias": "narradora",
+  "fallback": false,
+  "erros": [],
+  "perfil": "institucional",
+  "prep": true,
+  "original": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados.",
+  "falado": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados.",
+  "blocos": [
+    {
+      "inicio": 0.0,
+      "fim": 5.86,
+      "pausa": 0.0,
+      "tipo": "paragrafo",
+      "falado": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados."
+    }
+  ],
+  "mudancas": [],
+  "avisos": [],
+  "cache": "290f3a069305a17bda8c"
+}

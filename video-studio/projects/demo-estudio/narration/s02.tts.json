@@ -1,0 +1,32 @@
+{
+  "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s02.wav",
+  "sample_rate": 24000,
+  "duration_s": 5.91,
+  "engine": "kokoro",
+  "voice": "pf_dora",
+  "alias": "narradora",
+  "fallback": false,
+  "erros": [],
+  "perfil": "institucional",
+  "prep": true,
+  "original": "O roteiro vira storyboard, a narração é gerada em português, e cada cena é animada automaticamente.",
+  "falado": "O roteiro vira stóri bórd, a narração é gerada em português, e cada cena é animada automaticamente.",
+  "blocos": [
+    {
+      "inicio": 0.0,
+      "fim": 5.91,
+      "pausa": 0.0,
+      "tipo": "paragrafo",
+      "falado": "O roteiro vira stóri bórd, a narração é gerada em português, e cada cena é animada automaticamente."
+    }
+  ],
+  "mudancas": [
+    {
+      "regra": "dicionario",
+      "de": "storyboard",
+      "para": "stóri bórd"
+    }
+  ],
+  "avisos": [],
+  "cache": "f9f394d691fde8c1c8d9"
+}

@@ -1,0 +1,21 @@
+{
+  "file": "C:\\Users\\joao.admin\\Documents\\video-studio\\output\\demo-estudio.mp4",
+  "duration_s": 36.233333,
+  "expected_s": 36.233333333333334,
+  "video": "h264 1920x1080 30/1 yuv420p",
+  "audio": "aac 48000Hz",
+  "integrated_lufs": -14.3,
+  "true_peak_dbfs": -1.5,
+  "black_segments": 0,
+  "checks": {
+    "resolucao": true,
+    "fps": true,
+    "codec_video": true,
+    "audio": true,
+    "duracao": true,
+    "loudness": true,
+    "true_peak": true,
+    "sem_tela_preta": true
+  },
+  "pass": true
+}

@@ -1,0 +1,52 @@
+{
+  "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s03.wav",
+  "sample_rate": 24000,
+  "duration_s": 6.2,
+  "engine": "kokoro",
+  "voice": "pf_dora",
+  "alias": "narradora",
+  "fallback": false,
+  "erros": [],
+  "perfil": "institucional",
+  "prep": true,
+  "original": "As animações combinam dois motores: Remotion, com React, e HyperFrames, com HTML e GSAP.",
+  "falado": "As animações combinam dois motores: rimôuchon, com riékti, e ráiper frêimz, com HTML e gê sáp.",
+  "blocos": [
+    {
+      "inicio": 0.0,
+      "fim": 6.2,
+      "pausa": 0.0,
+      "tipo": "paragrafo",
+      "falado": "As animações combinam dois motores: rimôuchon, com riékti, e ráiper frêimz, com HTML e gê sáp."
+    }
+  ],
+  "mudancas": [
+    {
+      "regra": "dicionario",
+      "de": "Remotion",
+      "para": "rimôuchon"
+    },
+    {
+      "regra": "dicionario",
+      "de": "React",
+      "para": "riékti"
+    },
+    {
+      "regra": "dicionario",
+      "de": "HyperFrames",
+      "para": "ráiper frêimz"
+    },
+    {
+      "regra": "dicionario",
+      "de": "GSAP",
+      "para": "gê sáp"
+    },
+    {
+      "regra": "sigla",
+      "de": "HTML",
+      "para": "HTML (soletrada: agá tê eme éle)"
+    }
+  ],
+  "avisos": [],
+  "cache": "237eedb4e7ce67a2839e"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "demo-estudio",
+  "title": "Video Studio Local — Demo",
+  "approved": true,
+  "preset": "fullhd-web",
+  "voice": "narradora",
+  "theme": { "bg": "#0b1020", "ink": "#f5f7ff", "accent": "#4cc9f0" },
+  "music": { "file": "assets/music/ambient-pad-a.wav", "gain_db": -14 },
+  "scenes": [
+    { "id": "s01", "engine": "remotion", "template": "title", "heading": "Video Studio Local", "sub": "Produção de vídeo 100% local",
+      "narration": "Bem-vindo ao Video Studio Local. Tudo o que você vê e ouve foi produzido no seu próprio computador.",
+      "sfx": { "file": "assets/sfx/chime.wav", "offset": 0.1, "gain_db": -10 } },
+    { "id": "s02", "engine": "remotion", "template": "bullets", "heading": "Pipeline", "bullets": ["Roteiro e storyboard", "Narração em português", "Animação automática"],
+      "narration": "O roteiro vira storyboard, a narração é gerada em português, e cada cena é animada automaticamente.",
+      "sfx": { "file": "assets/sfx/whoosh.wav", "gain_db": -12 } },
+    { "id": "s03", "engine": "hyperframes", "template": "bullets", "heading": "Dois motores", "sub": "HyperFrames + GSAP", "bullets": ["Remotion · React", "HyperFrames · HTML e GSAP"],
+      "narration": "As animações combinam dois motores: Remotion, com React, e HyperFrames, com HTML e GSAP.",
+      "sfx": { "file": "assets/sfx/whoosh.wav", "gain_db": -12 } },
+    { "id": "s04", "engine": "hyperframes", "template": "bullets", "heading": "Áudio sincronizado", "sub": "Trilha · Efeitos · Voz", "bullets": ["Duração real da narração", "Loudnorm em dois passes"],
+      "narration": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados.",
+      "sfx": { "file": "assets/sfx/whoosh.wav", "gain_db": -12 } },
+    { "id": "s05", "engine": "remotion", "template": "outro", "heading": "Agora é a sua vez", "sub": "Full HD · Gratuito · Local",
+      "narration": "Pronto. Um vídeo Full HD, gratuito e local. Agora é a sua vez de criar.",
+      "sfx": { "file": "assets/sfx/chime.wav", "offset": 0.1, "gain_db": -10 }, "post_pad": 1.5 }
+  ]
+}

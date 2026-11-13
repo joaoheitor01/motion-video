@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Bem-vindo ao Video Studio Local. Tudo o que você vê e ouve foi produzido no seu próprio computador.",
+    "voice": "narradora",
+    "out": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s01.wav",
+    "prep": true
+  },
+  {
+    "text": "O roteiro vira storyboard, a narração é gerada em português, e cada cena é animada automaticamente.",
+    "voice": "narradora",
+    "out": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s02.wav",
+    "prep": true
+  },
+  {
+    "text": "As animações combinam dois motores: Remotion, com React, e HyperFrames, com HTML e GSAP.",
+    "voice": "narradora",
+    "out": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s03.wav",
+    "prep": true
+  },
+  {
+    "text": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados.",
+    "voice": "narradora",
+    "out": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s04.wav",
+    "prep": true
+  },
+  {
+    "text": "Pronto. Um vídeo Full HD, gratuito e local. Agora é a sua vez de criar.",
+    "voice": "narradora",
+    "out": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s05.wav",
+    "prep": true
+  }
+]

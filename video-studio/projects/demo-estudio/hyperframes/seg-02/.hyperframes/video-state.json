@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "historyId": "2b9ac622-ea4b-4992-aae1-c8d39ef1cc48",
+  "currentRevision": "6a517e3e-a618-4a18-9ed8-6f507e848938",
+  "pendingChanges": false,
+  "files": {
+    "gsap.min.js": {
+      "hash": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\2b9ac622-ea4b-4992-aae1-c8d39ef1cc48\\blobs\\3d\\3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b"
+    },
+    "index.html": {
+      "hash": "27efa2b9c14a5ba4d08805fb591fffd34c10d7e50027fd7398411a1193eff9a8",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\2b9ac622-ea4b-4992-aae1-c8d39ef1cc48\\blobs\\27\\27efa2b9c14a5ba4d08805fb591fffd34c10d7e50027fd7398411a1193eff9a8"
+    }
+  },
+  "revisions": {
+    "6a517e3e-a618-4a18-9ed8-6f507e848938": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794585511453,
+      "endedAt": 1794585511455,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\2b9ac622-ea4b-4992-aae1-c8d39ef1cc48\\blobs\\a0\\a0bdcaa21beeaf216e6fd963fea85ccd306c5d08dfd8677013f015dc6b6c2cb3",
+          "after": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\2b9ac622-ea4b-4992-aae1-c8d39ef1cc48\\blobs\\27\\27efa2b9c14a5ba4d08805fb591fffd34c10d7e50027fd7398411a1193eff9a8"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "551ec498-ff69-4eef-88da-a717f108e090",
+      "completedAt": 1794585532480,
+      "output": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\renders\\seg-02.mp4",
+      "status": "completed",
+      "revision": "6a517e3e-a618-4a18-9ed8-6f507e848938"
+    },
+    "retainedRevisions": [
+      "6a517e3e-a618-4a18-9ed8-6f507e848938"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,202 @@
+{
+  "s01": {
+    "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s01.wav",
+    "sample_rate": 24000,
+    "duration_s": 6.09,
+    "engine": "kokoro",
+    "voice": "pf_dora",
+    "alias": "narradora",
+    "fallback": false,
+    "erros": [],
+    "perfil": "institucional",
+    "prep": true,
+    "original": "Bem-vindo ao Video Studio Local. Tudo o que você vê e ouve foi produzido no seu próprio computador.",
+    "falado": "Bem-vindo ao vídeo stúdio Local. Tudo o que você vê e ouve foi produzido no seu próprio computador.",
+    "blocos": [
+      {
+        "inicio": 0,
+        "fim": 1.97,
+        "pausa": 0.42,
+        "tipo": "frase",
+        "falado": "Bem-vindo ao vídeo stúdio Local."
+      },
+      {
+        "inicio": 2.39,
+        "fim": 6.09,
+        "pausa": 0,
+        "tipo": "paragrafo",
+        "falado": "Tudo o que você vê e ouve foi produzido no seu próprio computador."
+      }
+    ],
+    "mudancas": [
+      {
+        "regra": "dicionario",
+        "de": "Video Studio",
+        "para": "vídeo stúdio"
+      }
+    ],
+    "avisos": [],
+    "cache": "22e15402fcf3ebca040f",
+    "do_cache": false
+  },
+  "s02": {
+    "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s02.wav",
+    "sample_rate": 24000,
+    "duration_s": 5.91,
+    "engine": "kokoro",
+    "voice": "pf_dora",
+    "alias": "narradora",
+    "fallback": false,
+    "erros": [],
+    "perfil": "institucional",
+    "prep": true,
+    "original": "O roteiro vira storyboard, a narração é gerada em português, e cada cena é animada automaticamente.",
+    "falado": "O roteiro vira stóri bórd, a narração é gerada em português, e cada cena é animada automaticamente.",
+    "blocos": [
+      {
+        "inicio": 0,
+        "fim": 5.91,
+        "pausa": 0,
+        "tipo": "paragrafo",
+        "falado": "O roteiro vira stóri bórd, a narração é gerada em português, e cada cena é animada automaticamente."
+      }
+    ],
+    "mudancas": [
+      {
+        "regra": "dicionario",
+        "de": "storyboard",
+        "para": "stóri bórd"
+      }
+    ],
+    "avisos": [],
+    "cache": "f9f394d691fde8c1c8d9",
+    "do_cache": false
+  },
+  "s03": {
+    "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s03.wav",
+    "sample_rate": 24000,
+    "duration_s": 6.2,
+    "engine": "kokoro",
+    "voice": "pf_dora",
+    "alias": "narradora",
+    "fallback": false,
+    "erros": [],
+    "perfil": "institucional",
+    "prep": true,
+    "original": "As animações combinam dois motores: Remotion, com React, e HyperFrames, com HTML e GSAP.",
+    "falado": "As animações combinam dois motores: rimôuchon, com riékti, e ráiper frêimz, com HTML e gê sáp.",
+    "blocos": [
+      {
+        "inicio": 0,
+        "fim": 6.2,
+        "pausa": 0,
+        "tipo": "paragrafo",
+        "falado": "As animações combinam dois motores: rimôuchon, com riékti, e ráiper frêimz, com HTML e gê sáp."
+      }
+    ],
+    "mudancas": [
+      {
+        "regra": "dicionario",
+        "de": "Remotion",
+        "para": "rimôuchon"
+      },
+      {
+        "regra": "dicionario",
+        "de": "React",
+        "para": "riékti"
+      },
+      {
+        "regra": "dicionario",
+        "de": "HyperFrames",
+        "para": "ráiper frêimz"
+      },
+      {
+        "regra": "dicionario",
+        "de": "GSAP",
+        "para": "gê sáp"
+      },
+      {
+        "regra": "sigla",
+        "de": "HTML",
+        "para": "HTML (soletrada: agá tê eme éle)"
+      }
+    ],
+    "avisos": [],
+    "cache": "237eedb4e7ce67a2839e",
+    "do_cache": false
+  },
+  "s04": {
+    "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s04.wav",
+    "sample_rate": 24000,
+    "duration_s": 5.86,
+    "engine": "kokoro",
+    "voice": "pf_dora",
+    "alias": "narradora",
+    "fallback": false,
+    "erros": [],
+    "perfil": "institucional",
+    "prep": true,
+    "original": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados.",
+    "falado": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados.",
+    "blocos": [
+      {
+        "inicio": 0,
+        "fim": 5.86,
+        "pausa": 0,
+        "tipo": "paragrafo",
+        "falado": "A trilha, os efeitos sonoros e a voz são sincronizados pela duração real do áudio, e normalizados."
+      }
+    ],
+    "mudancas": [],
+    "avisos": [],
+    "cache": "290f3a069305a17bda8c",
+    "do_cache": false
+  },
+  "s05": {
+    "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s05.wav",
+    "sample_rate": 24000,
+    "duration_s": 5.77,
+    "engine": "kokoro",
+    "voice": "pf_dora",
+    "alias": "narradora",
+    "fallback": false,
+    "erros": [],
+    "perfil": "institucional",
+    "prep": true,
+    "original": "Pronto. Um vídeo Full HD, gratuito e local. Agora é a sua vez de criar.",
+    "falado": "Pronto. Um vídeo fúl agá dê, gratuito e local. Agora é a sua vez de criar.",
+    "blocos": [
+      {
+        "inicio": 0,
+        "fim": 0.7,
+        "pausa": 0.42,
+        "tipo": "frase",
+        "falado": "Pronto."
+      },
+      {
+        "inicio": 1.12,
+        "fim": 3.48,
+        "pausa": 0.42,
+        "tipo": "frase",
+        "falado": "Um vídeo fúl agá dê, gratuito e local."
+      },
+      {
+        "inicio": 3.9,
+        "fim": 5.77,
+        "pausa": 0,
+        "tipo": "paragrafo",
+        "falado": "Agora é a sua vez de criar."
+      }
+    ],
+    "mudancas": [
+      {
+        "regra": "dicionario",
+        "de": "Full HD",
+        "para": "fúl agá dê"
+      }
+    ],
+    "avisos": [],
+    "cache": "c12580c72b6b24440c7d",
+    "do_cache": false
+  }
+}

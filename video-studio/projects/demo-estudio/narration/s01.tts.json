@@ -1,0 +1,39 @@
+{
+  "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s01.wav",
+  "sample_rate": 24000,
+  "duration_s": 6.09,
+  "engine": "kokoro",
+  "voice": "pf_dora",
+  "alias": "narradora",
+  "fallback": false,
+  "erros": [],
+  "perfil": "institucional",
+  "prep": true,
+  "original": "Bem-vindo ao Video Studio Local. Tudo o que você vê e ouve foi produzido no seu próprio computador.",
+  "falado": "Bem-vindo ao vídeo stúdio Local. Tudo o que você vê e ouve foi produzido no seu próprio computador.",
+  "blocos": [
+    {
+      "inicio": 0.0,
+      "fim": 1.97,
+      "pausa": 0.42,
+      "tipo": "frase",
+      "falado": "Bem-vindo ao vídeo stúdio Local."
+    },
+    {
+      "inicio": 2.39,
+      "fim": 6.09,
+      "pausa": 0.0,
+      "tipo": "paragrafo",
+      "falado": "Tudo o que você vê e ouve foi produzido no seu próprio computador."
+    }
+  ],
+  "mudancas": [
+    {
+      "regra": "dicionario",
+      "de": "Video Studio",
+      "para": "vídeo stúdio"
+    }
+  ],
+  "avisos": [],
+  "cache": "22e15402fcf3ebca040f"
+}

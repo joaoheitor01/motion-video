@@ -1,0 +1,28 @@
+{
+  "fps": 30,
+  "theme": {
+    "bg": "#0b1020",
+    "ink": "#f5f7ff",
+    "accent": "#4cc9f0"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "template": "title",
+      "heading": "Video Studio Local",
+      "sub": "Produção de vídeo 100% local",
+      "frames": 216
+    },
+    {
+      "id": "s02",
+      "template": "bullets",
+      "heading": "Pipeline",
+      "bullets": [
+        "Roteiro e storyboard",
+        "Narração em português",
+        "Animação automática"
+      ],
+      "frames": 211
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "_doc": [
+    "Perfis de linguagem para a narração. Escolha no storyboard: \"profile\": \"comercial\" (raiz ou por cena).",
+    "oralidade: como o texto escrito vira fala. contracoes = pra/tá/tô (só conversacional). horas = formal | informal (informal só converte horários precedidos de 'às/das/até as'). precos = completo | curto ('noventa e nove e noventa').",
+    "prosodia: pausas em segundos entre blocos de fala. max_palavras_folego = tamanho máximo de um trecho sem pontuação antes de inserir uma pausa de respiração (0 desliga). min_palavras_bloco = frases com menos palavras que isso são sintetizadas junto com a vizinha (1 = cada frase é um bloco, com a pausa do perfil depois).",
+    "kokoro.speed: 0.5 a 2.0 (1.0 = natural da voz). piper.length_scale: duração dos fonemas (maior = mais lento); noise_scale = variação de entonação; noise_w_scale = variação de ritmo.",
+    "Velocidades calibradas por medição (docs/TTS-EVALUATION.md): os dois motores falam no mesmo ritmo em cada perfil (Kokoro 1.0 = 6,3 sílabas/s; Piper 1.0 = 6,7). Pausas e variação são escolhas de projeto, não validadas por escuta: ajuste ao seu gosto."
+  ],
+  "padrao": "institucional",
+  "perfis": {
+    "jornalistico": {
+      "descricao": "Telejornal e rádio: direto, ritmo firme, formal, sem contrações.",
+      "oralidade": { "contracoes": false, "horas": "formal", "precos": "completo", "telefone_meia": true },
+      "prosodia": { "pausa_frase": 0.32, "pausa_paragrafo": 0.6, "pausa_explicita": 0.6, "pausa_respiracao": 0.25, "max_palavras_folego": 20, "min_palavras_bloco": 1 },
+      "kokoro": { "speed": 1.02 },
+      "piper": { "length_scale": 1.04, "noise_scale": 0.55, "noise_w_scale": 0.6 }
+    },
+    "comercial": {
+      "descricao": "Anúncio e chamada de venda: enérgico, frases curtas, preços no formato de balcão.",
+      "oralidade": { "contracoes": false, "horas": "informal", "precos": "curto", "telefone_meia": true },
+      "prosodia": { "pausa_frase": 0.26, "pausa_paragrafo": 0.5, "pausa_explicita": 0.5, "pausa_respiracao": 0.2, "max_palavras_folego": 16, "min_palavras_bloco": 1 },
+      "kokoro": { "speed": 1.06 },
+      "piper": { "length_scale": 1.0, "noise_scale": 0.7, "noise_w_scale": 0.8 }
+    },
+    "institucional": {
+      "descricao": "Vídeo corporativo, treinamento, documentário: calmo, claro, pausas mais longas.",
+      "oralidade": { "contracoes": false, "horas": "formal", "precos": "completo", "telefone_meia": true },
+      "prosodia": { "pausa_frase": 0.42, "pausa_paragrafo": 0.8, "pausa_explicita": 0.7, "pausa_respiracao": 0.3, "max_palavras_folego": 22, "min_palavras_bloco": 1 },
+      "kokoro": { "speed": 0.95 },
+      "piper": { "length_scale": 1.12, "noise_scale": 0.6, "noise_w_scale": 0.6 }
+    },
+    "conversacional": {
+      "descricao": "Tutorial, vlog, redes sociais: próximo, com contrações da fala (pra, tá, tô).",
+      "oralidade": { "contracoes": true, "horas": "informal", "precos": "completo", "telefone_meia": true },
+      "prosodia": { "pausa_frase": 0.36, "pausa_paragrafo": 0.7, "pausa_explicita": 0.6, "pausa_respiracao": 0.25, "max_palavras_folego": 18, "min_palavras_bloco": 1 },
+      "kokoro": { "speed": 0.99 },
+      "piper": { "length_scale": 1.07, "noise_scale": 0.667, "noise_w_scale": 0.8 }
+    }
+  }
+}

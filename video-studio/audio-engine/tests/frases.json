@@ -1,0 +1,90 @@
+{
+  "_doc": [
+    "Frases do teste comparativo (original x adaptado). Edite à vontade e rode tests/comparativo.py.",
+    "evitar: trechos de fonemas (IPA do espeak-ng pt-br) que denunciam a leitura literal. esperar: trechos que a leitura correta deve conter.",
+    "Os trechos foram extraídos com: python audio-engine/tts.py --mostrar \"frase\" --fonemas"
+  ],
+  "frases": [
+    {
+      "id": "01-preco-telefone", "categoria": "Moeda, telefone e horário", "perfil": "comercial",
+      "texto": "Só hoje: o plano anual sai por R$ 1.299,90 — ligue (11) 99876-5432 até as 20h30!",
+      "evitar": [["'R$' lido como 'real dólar'", "dˈolar"], ["decimal lido como 'vírgula'", "vˈirɡul"], ["hífen do telefone lido como 'menos'", "mˈenʊs"], ["'20h30' lido como 'vinte agá trinta'", "aɡˈa"]],
+      "esperar": [["'reais'", "xeˈaɪz"], ["telefone dígito a dígito ('meia')", "mˈeɪæ"], ["'oito e meia da noite'", "nˈoɪtʃ"]]
+    },
+    {
+      "id": "02-data-porcentagem", "categoria": "Datas, porcentagens e siglas", "perfil": "jornalistico",
+      "texto": "O PIB cresceu 3,5% em 2025, segundo o IBGE, e a inflação fechou em 4,2% no dia 13/11/2026.",
+      "evitar": [["'PIB' soletrado ('pê i bê')", "pˌeˌibˈe"], ["'IBGE' lido como 'íbje'", "ˈibʒy"], ["data lida como 'treze onze'", "trˈezy ˈoŋzy"]],
+      "esperar": [["'PIB' como palavra", "pˈib"], ["'IBGE' soletrado ('i bê gê é')", "ˌibˌeʒˌeˈɛ"], ["'treze de novembro'", "nˌovˈeɪmbrʊ"]]
+    },
+    {
+      "id": "03-siglas", "categoria": "Siglas brasileiras e valores", "perfil": "jornalistico",
+      "texto": "O INSS, a ONU e o MEC anunciaram um acordo com o BNDES de R$ 2,5 bilhões.",
+      "evitar": [["'INSS' lido como 'ins'", "ˈiŋs,"], ["'ONU' soletrado ('ó ene u')", "ˌɔˌeneˈu"], ["'MEC' soletrado ('eme é cê')", "ˌemeˌɛsˈe"], ["'BNDES' lido como 'bndês'", "bndʒˈyz"], ["'R$' lido como 'real dólar'", "dˈolar"]],
+      "esperar": [["'INSS' soletrado ('i ene ésse ésse')", "ˌiˌeneˌɛsyˈɛsy"], ["'ONU' como palavra", "ˈonu"], ["'dois bilhões e meio de reais'", "mˈeɪʊ dʒy xeˈaɪs"]]
+    },
+    {
+      "id": "04-termos-tecnicos", "categoria": "Marcas e termos técnicos estrangeiros", "perfil": "institucional",
+      "texto": "As animações combinam dois motores: Remotion, com React, e HyperFrames, com HTML e GSAP.",
+      "evitar": [["'Remotion' lido como 'remotchiôn'", "xˌemotʃiˈoŋ"], ["'React' lido como 'reáct'", "xeˈaktʃ"], ["'HyperFrames' lido como 'ipér'", "ipˈer"], ["'GSAP' lido como 'gsap'", "ɡsˈap"]],
+      "esperar": [["'rimôuchon'", "xˌimˈouʃoŋ"], ["'riékti'", "xjˈɛktʃi"], ["'ráiper'", "xˈaɪper"], ["'gê sáp'", "ʒˈe sˈap"]]
+    },
+    {
+      "id": "05-unidades", "categoria": "Medidas e unidades", "perfil": "institucional",
+      "texto": "O vídeo final tem 1920x1080 pixels, 30 fps e ocupa 250 MB; a 50 km/h, o trajeto de 12,5 km leva 15 min.",
+      "evitar": [["'km/h' lido como 'cá eme agá'", "kˌaˈeme aɡˈa"], ["'MB' soletrado", "ˈemebˈe"], ["'pixels' lido como 'pichéus'", "piʃˈɛʊs"]],
+      "esperar": [["'quilômetros por hora'", "kˌilˈometrʊs poɾ ˈɔɾæ"], ["'megabáites'", "mˌeɡabˈaɪtʃys"], ["'quinze minutos'", "mˌinˈutʊs"]]
+    },
+    {
+      "id": "06-abreviacoes", "categoria": "Abreviações e ordinais", "perfil": "institucional",
+      "texto": "O Dr. Paulo Mendes (diretor da Cia.) atende na Av. Brasil, nº 1.500, 3º andar.",
+      "evitar": [["pausa indevida depois de 'Dr.'", "dowtˈor."], ["'Cia.' lido como 'cia'", "sˈiæ"], ["'Av.' lido como 'áv'", "ˈav."]],
+      "esperar": [["'companhia'", "kˌompɐ̃ɲˈiæ"], ["'avenida'", "ˌavenˈidæ"], ["'mil e quinhentos'", "mˈiʊ i kˌiɲˈeɪŋtʊs"], ["'terceiro andar'", "tˌeɾəsˈeɪɾw"]]
+    },
+    {
+      "id": "07-conversa", "categoria": "Fala conversacional", "perfil": "conversacional",
+      "texto": "Oi, tudo bem? O vídeo está pronto para você revisar, não é? Qualquer coisa, me chama no WhatsApp.",
+      "evitar": [],
+      "esperar": [["'tá pronto pra você'", "tˈa prˈoŋtʊ pra"], ["'né?'", "nˈɛ?"]]
+    },
+    {
+      "id": "08-estrangeirismos", "categoria": "Estrangeirismos do dia a dia", "perfil": "conversacional",
+      "texto": "Baixe o app, faça login e mande seu feedback por email: o download é grátis e o design ficou ótimo.",
+      "evitar": [["'feedback' lido como 'feedbác'", "fˌeedbˈak"], ["'email' lido como 'emaíu'", "ˌemaˈiʊ"], ["'design' lido como 'dezáin'", "dezˈaɪn"]],
+      "esperar": [["'fídbék'", "fˈidbˈɛk"], ["'imêil'", "ˌimˈeiʊ"], ["'dizáin'", "dʒˌizˈain"]]
+    },
+    {
+      "id": "09-romanos-ordinais", "categoria": "Numerais romanos e ordinais", "perfil": "jornalistico",
+      "texto": "No século XXI, Dom Pedro II ainda é lembrado: a 2ª edição do livro chegou ao 1º lugar.",
+      "evitar": [["'Pedro II' lido como 'Pedro dois'", "pˈedrʊ dˈoɪz"]],
+      "esperar": [["'vinte e um' com 'um' tônico", "ˈũŋ,"], ["'Pedro segundo'", "pˈedrʊ sˌeɡˈũŋdw"], ["'segunda edição'", "sˌeɡˈũŋdæ"], ["'primeiro lugar'", "prˌimˈeɪɾʊ"]]
+    },
+    {
+      "id": "10-frase-longa", "categoria": "Frase longa sem pontuação (respiração)", "perfil": "institucional",
+      "texto": "O estúdio prepara o roteiro com cuidado antes de gravar a narração completa do projeto e depois sincroniza cada cena com a duração real do áudio gerado pelo motor local para que nada fique fora do tempo.",
+      "evitar": [], "esperar": []
+    },
+    {
+      "id": "11-frases-curtas", "categoria": "Sequência de frases (pausas)", "perfil": "institucional",
+      "texto": "Pronto. Tudo o que você vê e ouve foi produzido no seu próprio computador. Sem nuvem. Sem assinatura. Agora é a sua vez de criar.",
+      "evitar": [], "esperar": []
+    },
+    {
+      "id": "12-enderecos", "categoria": "Site e e-mail", "perfil": "comercial",
+      "texto": "Acesse www.exemplo.com.br ou escreva para contato@exemplo.com.br.",
+      "evitar": [],
+      "esperar": [["'ponto com ponto bê érre'", "pˈoŋtʊ bˈe ˈɛx"], ["'arroba'", "axˈobæ"]]
+    },
+    {
+      "id": "13-chamada", "categoria": "Chamada com pausa marcada", "perfil": "comercial",
+      "texto": "Quer vender mais? [pausa:0.5] Então anote: 3x sem juros, de 2ª a 6ª, das 9h às 18h!",
+      "evitar": [["'3x' lido como 'três xis'", "ʃˈis"], ["'9h' lido como 'nove agá'", "aɡˈa"]],
+      "esperar": [["'três vezes'", "vˈezys"], ["'de segunda a sexta'", "sˈestæ"], ["'das nove da manhã'", "mɐ̃ɲˈɐ̃"]]
+    },
+    {
+      "id": "14-controle", "categoria": "Controle: texto sem nada a adaptar", "perfil": "jornalistico",
+      "texto": "A prefeitura anunciou nesta terça-feira um novo programa de moradia para as famílias da região central.",
+      "evitar": [], "esperar": []
+    }
+  ]
+}

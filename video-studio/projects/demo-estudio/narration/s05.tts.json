@@ -1,0 +1,46 @@
+{
+  "path": "C:\\Users\\joao.admin\\Documents\\video-studio\\projects\\demo-estudio\\narration\\s05.wav",
+  "sample_rate": 24000,
+  "duration_s": 5.77,
+  "engine": "kokoro",
+  "voice": "pf_dora",
+  "alias": "narradora",
+  "fallback": false,
+  "erros": [],
+  "perfil": "institucional",
+  "prep": true,
+  "original": "Pronto. Um vídeo Full HD, gratuito e local. Agora é a sua vez de criar.",
+  "falado": "Pronto. Um vídeo fúl agá dê, gratuito e local. Agora é a sua vez de criar.",
+  "blocos": [
+    {
+      "inicio": 0.0,
+      "fim": 0.7,
+      "pausa": 0.42,
+      "tipo": "frase",
+      "falado": "Pronto."
+    },
+    {
+      "inicio": 1.12,
+      "fim": 3.48,
+      "pausa": 0.42,
+      "tipo": "frase",
+      "falado": "Um vídeo fúl agá dê, gratuito e local."
+    },
+    {
+      "inicio": 3.9,
+      "fim": 5.77,
+      "pausa": 0.0,
+      "tipo": "paragrafo",
+      "falado": "Agora é a sua vez de criar."
+    }
+  ],
+  "mudancas": [
+    {
+      "regra": "dicionario",
+      "de": "Full HD",
+      "para": "fúl agá dê"
+    }
+  ],
+  "avisos": [],
+  "cache": "c12580c72b6b24440c7d"
+}

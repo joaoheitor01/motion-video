@@ -1,0 +1,6 @@
+{
+  "narradora": { "engine": "kokoro", "voice": "pf_dora", "fallback": "piper:pt_BR-faber-medium" },
+  "narrador": { "engine": "kokoro", "voice": "pm_alex", "fallback": "piper:pt_BR-faber-medium" },
+  "narrador-2": { "engine": "kokoro", "voice": "pm_santa", "fallback": "piper:pt_BR-faber-medium" },
+  "piper-faber": { "engine": "piper", "voice": "pt_BR-faber-medium" }
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "historyId": "d9259293-3f97-43eb-80a6-edb797363c40",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\d9259293-3f97-43eb-80a6-edb797363c40\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "CLAUDE.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\d9259293-3f97-43eb-80a6-edb797363c40\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\d9259293-3f97-43eb-80a6-edb797363c40\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "a35377c9ff2d5da65016adf630765a6818d5faa08e8cb7f2820460e0ac7057b8",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\d9259293-3f97-43eb-80a6-edb797363c40\\blobs\\a3\\a35377c9ff2d5da65016adf630765a6818d5faa08e8cb7f2820460e0ac7057b8"
+    },
+    "meta.json": {
+      "hash": "f956efbe354a5dae2d78309141f655599d80fdd77f5385a8300cd79286578c16",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\d9259293-3f97-43eb-80a6-edb797363c40\\blobs\\f9\\f956efbe354a5dae2d78309141f655599d80fdd77f5385a8300cd79286578c16"
+    },
+    "package.json": {
+      "hash": "9ba7b8e4e48ca01f9567751b9a3f6b2a53fdd2a7df91ca3d2c176cd760b21a62",
+      "content": "C:\\Users\\joao.admin\\.cache\\hyperframes\\history\\d9259293-3f97-43eb-80a6-edb797363c40\\blobs\\9b\\9ba7b8e4e48ca01f9567751b9a3f6b2a53fdd2a7df91ca3d2c176cd760b21a62"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6c4f4af4-0132-43e4-9da5-f038231a2ae2",
+      "completedAt": 1794582483489,
+      "output": "C:\\Users\\joao.admin\\Documents\\video-studio\\output\\_hf_test.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

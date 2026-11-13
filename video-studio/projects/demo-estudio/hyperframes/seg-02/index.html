@@ -1,0 +1,32 @@
+<!doctype html><html lang="pt-BR" data-resolution="landscape"><head><meta charset="UTF-8"/>
+<meta name="viewport" content="width=1920, height=1080"/><script src="gsap.min.js"></script>
+<style>*{margin:0;padding:0;box-sizing:border-box}html,body{width:1920px;height:1080px;overflow:hidden;background:#0b1020}
+#root{width:100%;height:100%;font-family:"Segoe UI",Arial,sans-serif;color:#f5f7ff;
+background:radial-gradient(circle at 70% 30%,#4cc9f040,#0b1020 60%)}
+.scene{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 180px}
+h1{font-size:96px;font-weight:800;letter-spacing:-.02em}.w{display:inline-block}
+.kicker{font-size:36px;color:#4cc9f0;text-transform:uppercase;letter-spacing:.2em;margin-bottom:24px}
+.bar{height:8px;width:260px;background:#4cc9f0;border-radius:4px;margin:32px 0}
+ul{list-style:none}li{font-size:50px;margin:14px 0}li::before{content:"▸ ";color:#4cc9f0}
+#orb{position:absolute;width:520px;height:520px;border-radius:50%;right:-120px;bottom:-160px;background:#4cc9f0;opacity:.18;filter:blur(20px)}</style></head>
+<body><div id="root" data-composition-id="main" data-start="0" data-duration="14.300" data-width="1920" data-height="1080" data-fps="30">
+<div id="orb" class="clip" data-start="0" data-duration="14.300"></div>
+<section id="s_s03" class="clip scene" data-start="0.000" data-duration="7.333">
+  <div class="kicker">HyperFrames + GSAP</div><h1><span class="w">Dois</span> <span class="w">motores</span></h1>
+  <div class="bar"></div><ul><li class="b b0">Remotion · React</li><li class="b b1">HyperFrames · HTML e GSAP</li></ul></section>
+<section id="s_s04" class="clip scene" data-start="7.333" data-duration="6.967">
+  <div class="kicker">Trilha · Efeitos · Voz</div><h1><span class="w">Áudio</span> <span class="w">sincronizado</span></h1>
+  <div class="bar"></div><ul><li class="b b0">Duração real da narração</li><li class="b b1">Loudnorm em dois passes</li></ul></section>
+</div><script>const tl=gsap.timeline({paused:true});
+tl.to("#orb",{x:-300,y:-200,scale:1.4,duration:14.300,ease:"none"},0);
+tl.from("#s_s03 .w",{y:80,opacity:0,rotate:4,stagger:0.08,duration:0.7,ease:"back.out(1.7)"},0.000);
+tl.from("#s_s03 .bar",{scaleX:0,transformOrigin:"left",duration:0.6,ease:"power3.out"},0.300);
+tl.from("#s_s03 .kicker",{opacity:0,y:-20,duration:0.5},0.200);
+tl.from("#s_s03 .b",{x:-60,opacity:0,stagger:0.25,duration:0.5,ease:"power2.out"},0.600);
+tl.to("#s_s03",{opacity:0,duration:0.35},6.933);
+tl.from("#s_s04 .w",{y:80,opacity:0,rotate:4,stagger:0.08,duration:0.7,ease:"back.out(1.7)"},7.333);
+tl.from("#s_s04 .bar",{scaleX:0,transformOrigin:"left",duration:0.6,ease:"power3.out"},7.633);
+tl.from("#s_s04 .kicker",{opacity:0,y:-20,duration:0.5},7.533);
+tl.from("#s_s04 .b",{x:-60,opacity:0,stagger:0.25,duration:0.5,ease:"power2.out"},7.933);
+tl.to("#s_s04",{opacity:0,duration:0.35},13.900);
+window.__timelines["main"]=tl;tl.seek(0);</script></body></html>
